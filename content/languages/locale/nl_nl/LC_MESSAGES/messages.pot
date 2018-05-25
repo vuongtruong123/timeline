@@ -1,0 +1,4176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-01 15:22+0200\n"
+"PO-Revision-Date: 2016-09-01 15:22+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.7.3\n"
+
+#: activation.php:24 admin.php:774 connect.php:116 directory.php:188
+#: friend_requests.php:48 game.php:33 group.php:102 index.php:149
+#: messages.php:45 notifications.php:37 page.php:102 photo.php:43 post.php:43
+#: profile.php:158 revoke.php:52 search.php:43 settings.php:69 started.php:37
+#: static.php:30 content/themes/default/templates/_js_translator.tpl:7
+#: includes/functions.php:63 includes/ajax/admin/delete.php:111
+#: includes/ajax/albums/action.php:112 includes/ajax/albums/modal.php:62
+#: includes/ajax/albums/update.php:48
+#: includes/ajax/chat/get.conversation.php:52
+#: includes/ajax/chat/get.messages.php:96 includes/ajax/chat/initialize.php:41
+#: includes/ajax/chat/live.php:198 includes/ajax/chat/post.php:66
+#: includes/ajax/chat/reaction.php:69
+#: includes/ajax/core/activation_email_resend.php:30
+#: includes/ajax/core/translator.php:41 includes/ajax/data/delete.php:52
+#: includes/ajax/data/live.php:83 includes/ajax/data/load.php:261
+#: includes/ajax/data/report.php:79 includes/ajax/data/reset.php:33
+#: includes/ajax/data/search.php:39 includes/ajax/data/upload.php:511
+#: includes/ajax/posts/comment.php:62 includes/ajax/posts/edit.php:101
+#: includes/ajax/posts/filter.php:45 includes/ajax/posts/lightbox.php:51
+#: includes/ajax/posts/post.php:184 includes/ajax/posts/reaction.php:107
+#: includes/ajax/posts/scraber.php:45 includes/ajax/posts/who_likes.php:79
+#: includes/ajax/posts/who_shares.php:51
+#: includes/ajax/users/autocomplete.php:53 includes/ajax/users/connect.php:45
+#: includes/ajax/users/delete.php:22 includes/ajax/users/delete.php:35
+#: includes/ajax/users/image.php:115 includes/ajax/users/mention.php:44
+#: includes/ajax/users/mutual_friends.php:49
+#: includes/ajax/users/popover.php:55
+msgid "Error"
+msgstr "Foutje"
+
+#: admin.php:20 bootstrap.php:155 bootstrap.php:160
+#: includes/ajax/admin/ads.php:18 includes/ajax/admin/announcements.php:18
+#: includes/ajax/admin/category.php:18 includes/ajax/admin/delete.php:18
+#: includes/ajax/admin/design.php:18 includes/ajax/admin/games.php:18
+#: includes/ajax/admin/group.php:18 includes/ajax/admin/language.php:18
+#: includes/ajax/admin/page.php:18 includes/ajax/admin/settings.php:18
+#: includes/ajax/admin/static.php:18 includes/ajax/admin/theme.php:18
+#: includes/ajax/admin/user.php:18 includes/ajax/admin/widgets.php:18
+msgid "System Message"
+msgstr "Systeembericht"
+
+#: admin.php:20 includes/ajax/admin/ads.php:18
+#: includes/ajax/admin/announcements.php:18
+#: includes/ajax/admin/category.php:18 includes/ajax/admin/delete.php:18
+#: includes/ajax/admin/design.php:18 includes/ajax/admin/games.php:18
+#: includes/ajax/admin/group.php:18 includes/ajax/admin/language.php:18
+#: includes/ajax/admin/page.php:18 includes/ajax/admin/settings.php:18
+#: includes/ajax/admin/static.php:18 includes/ajax/admin/theme.php:18
+#: includes/ajax/admin/user.php:18 includes/ajax/admin/widgets.php:18
+msgid "You don't have the right permission to access this"
+msgstr "U hoeft niet de juiste machtiging voor toegang tot dit"
+
+#: admin.php:29 content/themes/default/templates/index.tpl:210
+#: content/themes/default/templates/_header.tpl:39
+#: content/themes/default/templates/_header.tpl:120
+msgid "Admin Panel"
+msgstr "Admin paneel"
+
+#: admin.php:79 admin.php:87 admin.php:118 admin.php:123 admin.php:134
+#: admin.php:142 admin.php:173 admin.php:178 admin.php:192 admin.php:223
+#: admin.php:228 admin.php:242 admin.php:259 admin.php:276 admin.php:293
+#: admin.php:310 admin.php:349 admin.php:363 admin.php:398 admin.php:412
+#: admin.php:438 admin.php:443 admin.php:457 admin.php:490 admin.php:504
+#: admin.php:521 admin.php:544 admin.php:570 admin.php:601 admin.php:606
+#: admin.php:620 admin.php:651 admin.php:656 admin.php:670 admin.php:701
+#: admin.php:706 admin.php:720 admin.php:752 admin.php:757
+msgid "Admin"
+msgstr "Beheerder"
+
+#: admin.php:79 settings.php:21 settings.php:26 settings.php:33
+#: settings.php:41 settings.php:46 settings.php:59
+#: content/themes/default/templates/admin.settings.tpl:4
+#: content/themes/default/templates/admin.tpl:25
+#: content/themes/default/templates/_header.tpl:116
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin.php:87 admin.php:118 admin.php:123
+#: content/themes/default/templates/admin.themes.tpl:11
+#: content/themes/default/templates/admin.tpl:33
+msgid "Themes"
+msgstr "Thema's"
+
+#: admin.php:123 admin.php:178 admin.php:228 admin.php:443 admin.php:606
+#: admin.php:656 admin.php:706 admin.php:757
+#: content/themes/default/templates/admin.ads.tpl:13
+#: content/themes/default/templates/admin.announcements.tpl:13
+#: content/themes/default/templates/admin.categories.tpl:13
+#: content/themes/default/templates/admin.games.tpl:13
+#: content/themes/default/templates/admin.languages.tpl:13
+#: content/themes/default/templates/admin.static.tpl:13
+#: content/themes/default/templates/admin.themes.tpl:13
+#: content/themes/default/templates/admin.tpl:44
+#: content/themes/default/templates/admin.tpl:73
+#: content/themes/default/templates/admin.tpl:94
+#: content/themes/default/templates/admin.tpl:159
+#: content/themes/default/templates/admin.tpl:217
+#: content/themes/default/templates/admin.tpl:238
+#: content/themes/default/templates/admin.tpl:259
+#: content/themes/default/templates/admin.tpl:280
+#: content/themes/default/templates/admin.widgets.tpl:13
+msgid "Add New"
+msgstr "Voeg nieuw toe"
+
+#: admin.php:134 content/themes/default/templates/admin.design.tpl:4
+#: content/themes/default/templates/admin.tpl:54
+msgid "Design"
+msgstr "Ontwerp"
+
+#: admin.php:142 admin.php:173 admin.php:178
+#: content/themes/default/templates/admin.languages.tpl:11
+#: content/themes/default/templates/admin.tpl:62
+msgid "Languages"
+msgstr "Talen"
+
+#: admin.php:192 admin.php:223 admin.php:228
+#: content/themes/default/templates/admin.announcements.tpl:11
+#: content/themes/default/templates/admin.tpl:83
+msgid "Announcements"
+msgstr "Mededelingen"
+
+#: admin.php:242 admin.php:259 admin.php:276 admin.php:293 admin.php:310
+#: admin.php:349 admin.php:504
+#: content/themes/default/templates/admin.dashboard.tpl:12
+#: content/themes/default/templates/admin.tpl:104
+#: content/themes/default/templates/admin.users.tpl:11
+#: content/themes/default/templates/admin.users.tpl:213
+#: content/themes/default/templates/directory.tpl:19
+#: content/themes/default/templates/search.tpl:53
+#: content/themes/default/templates/_directory.tpl:21
+msgid "Users"
+msgstr "Gebruikers"
+
+#: admin.php:259 content/themes/default/templates/admin.users.tpl:207
+msgid "Admins"
+msgstr "Admins"
+
+#: admin.php:276 content/themes/default/templates/admin.users.tpl:210
+msgid "Moderators"
+msgstr "Moderatoren"
+
+#: admin.php:293 content/themes/default/templates/admin.dashboard.tpl:64
+#: content/themes/default/templates/admin.users.tpl:490
+#: content/themes/default/templates/settings.tpl:347
+msgid "Online"
+msgstr "Online"
+
+#: admin.php:310 content/themes/default/templates/admin.dashboard.tpl:44
+#: content/themes/default/templates/admin.users.tpl:166
+msgid "Banned"
+msgstr "Geblokkeerd"
+
+#: admin.php:363 admin.php:398 admin.php:521 index.php:61
+#: content/themes/default/templates/admin.dashboard.tpl:98
+#: content/themes/default/templates/admin.pages.tpl:11
+#: content/themes/default/templates/admin.tpl:140
+#: content/themes/default/templates/directory.tpl:22
+#: content/themes/default/templates/search.tpl:58
+#: content/themes/default/templates/_directory.tpl:30
+msgid "Pages"
+msgstr "Pagina's"
+
+#: admin.php:412 admin.php:438 admin.php:443
+#: content/themes/default/templates/admin.categories.tpl:11
+msgid "Categories"
+msgstr "Categorieën"
+
+#: admin.php:457 admin.php:490 index.php:66
+#: content/themes/default/templates/admin.dashboard.tpl:108
+#: content/themes/default/templates/admin.groups.tpl:11
+#: content/themes/default/templates/admin.tpl:169
+#: content/themes/default/templates/directory.tpl:25
+#: content/themes/default/templates/profile.tpl:143
+#: content/themes/default/templates/profile.tpl:426
+#: content/themes/default/templates/profile.tpl:844
+#: content/themes/default/templates/search.tpl:63
+#: content/themes/default/templates/_directory.tpl:39
+msgid "Groups"
+msgstr "Groepen"
+
+#: admin.php:504 admin.php:521
+#: content/themes/default/templates/admin.pages.tpl:25
+#: content/themes/default/templates/admin.verified.tpl:4
+#: content/themes/default/templates/admin.verified.tpl:72
+msgid "Verified"
+msgstr "Geverifieerd"
+
+#: admin.php:544 content/themes/default/templates/admin.reports.tpl:4
+#: content/themes/default/templates/admin.tpl:198
+msgid "Reports"
+msgstr "Rapporten"
+
+#: admin.php:570 admin.php:601 admin.php:606
+#: content/themes/default/templates/admin.static.tpl:11
+#: content/themes/default/templates/admin.tpl:206
+msgid "Static Pages"
+msgstr "Statische pagina 's"
+
+#: admin.php:620 admin.php:651 admin.php:656
+#: content/themes/default/templates/admin.ads.tpl:11
+#: content/themes/default/templates/admin.tpl:227
+msgid "Ads"
+msgstr "Zoekertjes"
+
+#: admin.php:670 admin.php:701 admin.php:706
+#: content/themes/default/templates/admin.tpl:248
+#: content/themes/default/templates/admin.widgets.tpl:11
+msgid "Widgets"
+msgstr "Widgets"
+
+#: admin.php:720 admin.php:752 admin.php:757 index.php:91
+#: content/themes/default/templates/admin.games.tpl:11
+#: content/themes/default/templates/directory.tpl:28
+#: content/themes/default/templates/index.tpl:238
+#: content/themes/default/templates/index.tpl:472
+#: content/themes/default/templates/_directory.tpl:48
+msgid "Games"
+msgstr "Spellen"
+
+#: bootstrap.php:160
+msgid "Your account has been blocked"
+msgstr "Uw account is geblokkeerd"
+
+#: directory.php:23 content/themes/default/templates/admin.ads.tpl:40
+#: content/themes/default/templates/admin.ads.tpl:80
+#: content/themes/default/templates/admin.ads.tpl:136
+#: content/themes/default/templates/admin.widgets.tpl:39
+#: content/themes/default/templates/admin.widgets.tpl:78
+#: content/themes/default/templates/admin.widgets.tpl:134
+#: content/themes/default/templates/index.tpl:578
+#: content/themes/default/templates/_footer.tpl:19
+msgid "Directory"
+msgstr "Bedrijvengids"
+
+#: directory.php:28
+msgid "Posts Directory"
+msgstr "berichten Directory"
+
+#: directory.php:55
+msgid "Users Directory"
+msgstr "Gebruikers directory Slug"
+
+#: directory.php:82 directory.php:115 directory.php:148
+msgid "Pages Directory"
+msgstr "Pages Directory"
+
+#: friend_requests.php:22 content/themes/default/templates/profile.tpl:475
+#: content/themes/default/templates/profile.tpl:675
+#: content/themes/default/templates/profile.tpl:739
+#: content/themes/default/templates/_header.friend_requests.tpl:10
+msgid "Friend Requests"
+msgstr "Vriendschapsverzoeken"
+
+#: friend_requests.php:27
+#: content/themes/default/templates/friend_requests.tpl:46
+msgid "Friend Requests Sent"
+msgstr "Vriendschapsverzoek"
+
+#: index.php:18 content/themes/default/templates/index.tpl:10
+#: includes/class-user.php:4091 includes/class-user.php:4396
+#: includes/class-user.php:4790 includes/class-user.php:4823
+msgid "Welcome to"
+msgstr "Welkom bij"
+
+#: index.php:51 content/themes/default/templates/index.tpl:315
+msgid "Saved Posts"
+msgstr "Opgeslagen berichten"
+
+#: index.php:71 content/themes/default/templates/index.tpl:261
+#: content/themes/default/templates/index.tpl:323
+#: content/themes/default/templates/index.tpl:399
+#: content/themes/default/templates/_header.tpl:126
+msgid "Create Page"
+msgstr "Maak pagina"
+
+#: index.php:81 content/themes/default/templates/index.tpl:287
+#: content/themes/default/templates/index.tpl:361
+#: content/themes/default/templates/index.tpl:440
+#: content/themes/default/templates/_header.tpl:135
+msgid "Create Group"
+msgstr "Nieuwe groep aanmaken..."
+
+#: messages.php:16 content/themes/default/templates/admin.dashboard.tpl:120
+#: content/themes/default/templates/index.tpl:225
+#: content/themes/default/templates/_header.messages.tpl:10
+msgid "Messages"
+msgstr "Berichten"
+
+#: notifications.php:16
+#: content/themes/default/templates/admin.dashboard.tpl:129
+#: content/themes/default/templates/_header.notifications.tpl:10
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: page.php:38
+msgid "N/A"
+msgstr "Net"
+
+#: reset.php:18
+msgid "Forgot your password?"
+msgstr "Wachtwoord vergeten?"
+
+#: search.php:18 content/themes/default/templates/directory.tpl:31
+#: content/themes/default/templates/index.tpl:582
+#: content/themes/default/templates/search.tpl:15
+#: content/themes/default/templates/search.tpl:25
+#: content/themes/default/templates/_directory.tpl:57
+#: content/themes/default/templates/_footer.tpl:23
+msgid "Search"
+msgstr "Zoeken"
+
+#: settings.php:21 content/themes/default/templates/settings.tpl:13
+#: content/themes/default/templates/settings.tpl:49
+msgid "Account Settings"
+msgstr "Accountinstellingen"
+
+#: settings.php:26 content/themes/default/templates/index.tpl:203
+#: content/themes/default/templates/settings.tpl:16
+#: content/themes/default/templates/settings.tpl:150
+msgid "Edit Profile"
+msgstr "Wijzig profiel"
+
+#: settings.php:33 content/themes/default/templates/settings.tpl:19
+#: content/themes/default/templates/settings.tpl:332
+#: content/themes/default/templates/_js_templates.tpl:426
+msgid "Privacy Settings"
+msgstr "Privacy instellingen"
+
+#: settings.php:41 content/themes/default/templates/settings.tpl:24
+#: content/themes/default/templates/settings.tpl:533
+msgid "Linked Accounts"
+msgstr "Gekoppelde Accounts"
+
+#: settings.php:46 content/themes/default/templates/settings.tpl:29
+msgid "Blocking"
+msgstr "Afscherming"
+
+#: settings.php:59 content/themes/default/templates/admin.settings.tpl:322
+#: content/themes/default/templates/settings.tpl:33
+#: content/themes/default/templates/settings.tpl:720
+msgid "Delete Account"
+msgstr "Account Verwijderen"
+
+#: signin.php:18 content/themes/default/templates/index.tpl:37
+#: content/themes/default/templates/index.tpl:51
+#: content/themes/default/templates/signin.tpl:8
+#: content/themes/default/templates/signin.tpl:65
+#: content/themes/default/templates/_header.tpl:156
+#: content/themes/default/templates/_js_templates.tpl:21
+msgid "Login"
+msgstr "Inloggen"
+
+#: signup.php:18 content/themes/default/templates/index.tpl:131
+#: content/themes/default/templates/signup.tpl:83
+#: content/themes/default/templates/signup_social.tpl:44
+msgid "Sign Up"
+msgstr "Creëer je account"
+
+#: started.php:41 content/themes/default/templates/admin.settings.tpl:307
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: content/themes/default/templates/admin.ads.tpl:6
+msgid "Add New Ads"
+msgstr "Toevoegen van nieuwe advertenties"
+
+#: content/themes/default/templates/admin.ads.tpl:21
+#: content/themes/default/templates/admin.announcements.tpl:21
+#: content/themes/default/templates/admin.categories.tpl:21
+#: content/themes/default/templates/admin.games.tpl:21
+#: content/themes/default/templates/admin.groups.tpl:20
+#: content/themes/default/templates/admin.languages.tpl:21
+#: content/themes/default/templates/admin.pages.tpl:20
+#: content/themes/default/templates/admin.reports.tpl:11
+#: content/themes/default/templates/admin.static.tpl:21
+#: content/themes/default/templates/admin.themes.tpl:21
+#: content/themes/default/templates/admin.users.tpl:21
+#: content/themes/default/templates/admin.verified.tpl:12
+#: content/themes/default/templates/admin.verified.tpl:67
+#: content/themes/default/templates/admin.widgets.tpl:21
+msgid "ID"
+msgstr "ID"
+
+#: content/themes/default/templates/admin.ads.tpl:22
+#: content/themes/default/templates/admin.ads.tpl:62
+#: content/themes/default/templates/admin.ads.tpl:118
+#: content/themes/default/templates/admin.announcements.tpl:69
+#: content/themes/default/templates/admin.announcements.tpl:169
+#: content/themes/default/templates/admin.categories.tpl:22
+#: content/themes/default/templates/admin.groups.tpl:23
+#: content/themes/default/templates/admin.groups.tpl:98
+#: content/themes/default/templates/admin.languages.tpl:22
+#: content/themes/default/templates/admin.pages.tpl:23
+#: content/themes/default/templates/admin.pages.tpl:135
+#: content/themes/default/templates/admin.static.tpl:64
+#: content/themes/default/templates/admin.static.tpl:107
+#: content/themes/default/templates/admin.verified.tpl:70
+#: content/themes/default/templates/admin.widgets.tpl:22
+#: content/themes/default/templates/admin.widgets.tpl:60
+#: content/themes/default/templates/admin.widgets.tpl:116
+#: content/themes/default/templates/ajax.album.edit_title.tpl:8
+#: content/themes/default/templates/group.tpl:413
+#: content/themes/default/templates/index.tpl:413
+#: content/themes/default/templates/index.tpl:446
+#: content/themes/default/templates/page.tpl:377
+msgid "Title"
+msgstr "Titel"
+
+#: content/themes/default/templates/admin.ads.tpl:23
+#: content/themes/default/templates/admin.ads.tpl:70
+#: content/themes/default/templates/admin.ads.tpl:126
+#: content/themes/default/templates/admin.widgets.tpl:23
+#: content/themes/default/templates/admin.widgets.tpl:68
+#: content/themes/default/templates/admin.widgets.tpl:124
+msgid "Place"
+msgstr "Locatie"
+
+#: content/themes/default/templates/admin.ads.tpl:24
+msgid "Date"
+msgstr "Datum"
+
+#: content/themes/default/templates/admin.ads.tpl:25
+#: content/themes/default/templates/admin.announcements.tpl:26
+#: content/themes/default/templates/admin.categories.tpl:23
+#: content/themes/default/templates/admin.games.tpl:24
+#: content/themes/default/templates/admin.groups.tpl:25
+#: content/themes/default/templates/admin.languages.tpl:28
+#: content/themes/default/templates/admin.pages.tpl:26
+#: content/themes/default/templates/admin.reports.tpl:16
+#: content/themes/default/templates/admin.static.tpl:24
+#: content/themes/default/templates/admin.themes.tpl:25
+#: content/themes/default/templates/admin.users.tpl:28
+#: content/themes/default/templates/admin.verified.tpl:19
+#: content/themes/default/templates/admin.verified.tpl:73
+#: content/themes/default/templates/admin.widgets.tpl:24
+msgid "Actions"
+msgstr "Acties"
+
+#: content/themes/default/templates/admin.ads.tpl:34
+#: content/themes/default/templates/admin.ads.tpl:74
+#: content/themes/default/templates/admin.ads.tpl:130
+#: content/themes/default/templates/admin.widgets.tpl:33
+#: content/themes/default/templates/admin.widgets.tpl:72
+#: content/themes/default/templates/admin.widgets.tpl:128
+msgid "Home Page"
+msgstr "Homepagina"
+
+#: content/themes/default/templates/admin.ads.tpl:35
+#: content/themes/default/templates/admin.ads.tpl:75
+#: content/themes/default/templates/admin.ads.tpl:131
+#: content/themes/default/templates/admin.widgets.tpl:34
+#: content/themes/default/templates/admin.widgets.tpl:73
+#: content/themes/default/templates/admin.widgets.tpl:129
+msgid "Search Page"
+msgstr "Zoekpagina"
+
+#: content/themes/default/templates/admin.ads.tpl:36
+#: content/themes/default/templates/admin.ads.tpl:76
+#: content/themes/default/templates/admin.ads.tpl:132
+#: content/themes/default/templates/admin.widgets.tpl:35
+#: content/themes/default/templates/admin.widgets.tpl:74
+#: content/themes/default/templates/admin.widgets.tpl:130
+msgid "Friends Requests Page"
+msgstr "Verzoeken Vriendenpagina"
+
+#: content/themes/default/templates/admin.ads.tpl:37
+#: content/themes/default/templates/admin.ads.tpl:77
+#: content/themes/default/templates/admin.ads.tpl:133
+#: content/themes/default/templates/admin.widgets.tpl:36
+#: content/themes/default/templates/admin.widgets.tpl:75
+#: content/themes/default/templates/admin.widgets.tpl:131
+msgid "Notifications Page"
+msgstr "Pagina kennisgevingen"
+
+#: content/themes/default/templates/admin.ads.tpl:38
+#: content/themes/default/templates/admin.ads.tpl:78
+#: content/themes/default/templates/admin.ads.tpl:134
+#: content/themes/default/templates/admin.widgets.tpl:37
+#: content/themes/default/templates/admin.widgets.tpl:76
+#: content/themes/default/templates/admin.widgets.tpl:132
+msgid "Post Page"
+msgstr "Post pagina"
+
+#: content/themes/default/templates/admin.ads.tpl:39
+#: content/themes/default/templates/admin.ads.tpl:79
+#: content/themes/default/templates/admin.ads.tpl:135
+#: content/themes/default/templates/admin.widgets.tpl:38
+#: content/themes/default/templates/admin.widgets.tpl:77
+#: content/themes/default/templates/admin.widgets.tpl:133
+msgid "Photo Page"
+msgstr "Foto Pagina"
+
+#: content/themes/default/templates/admin.ads.tpl:87
+#: content/themes/default/templates/admin.ads.tpl:142
+#: content/themes/default/templates/admin.announcements.tpl:95
+#: content/themes/default/templates/admin.announcements.tpl:195
+#: content/themes/default/templates/admin.static.tpl:72
+#: content/themes/default/templates/admin.static.tpl:115
+#: content/themes/default/templates/admin.widgets.tpl:85
+#: content/themes/default/templates/admin.widgets.tpl:140
+msgid "HTML"
+msgstr "HTML"
+
+#: content/themes/default/templates/admin.ads.tpl:96
+#: content/themes/default/templates/admin.ads.tpl:151
+#: content/themes/default/templates/admin.announcements.tpl:138
+#: content/themes/default/templates/admin.announcements.tpl:238
+#: content/themes/default/templates/admin.categories.tpl:60
+#: content/themes/default/templates/admin.categories.tpl:88
+#: content/themes/default/templates/admin.design.tpl:225
+#: content/themes/default/templates/admin.games.tpl:113
+#: content/themes/default/templates/admin.games.tpl:174
+#: content/themes/default/templates/admin.groups.tpl:125
+#: content/themes/default/templates/admin.languages.tpl:148
+#: content/themes/default/templates/admin.languages.tpl:246
+#: content/themes/default/templates/admin.pages.tpl:162
+#: content/themes/default/templates/admin.settings.tpl:257
+#: content/themes/default/templates/admin.settings.tpl:541
+#: content/themes/default/templates/admin.settings.tpl:629
+#: content/themes/default/templates/admin.settings.tpl:679
+#: content/themes/default/templates/admin.settings.tpl:883
+#: content/themes/default/templates/admin.settings.tpl:965
+#: content/themes/default/templates/admin.settings.tpl:1074
+#: content/themes/default/templates/admin.settings.tpl:1106
+#: content/themes/default/templates/admin.static.tpl:81
+#: content/themes/default/templates/admin.static.tpl:124
+#: content/themes/default/templates/admin.themes.tpl:85
+#: content/themes/default/templates/admin.themes.tpl:126
+#: content/themes/default/templates/admin.users.tpl:230
+#: content/themes/default/templates/admin.users.tpl:375
+#: content/themes/default/templates/admin.users.tpl:404
+#: content/themes/default/templates/admin.users.tpl:433
+#: content/themes/default/templates/admin.users.tpl:462
+#: content/themes/default/templates/admin.users.tpl:620
+#: content/themes/default/templates/admin.widgets.tpl:94
+#: content/themes/default/templates/admin.widgets.tpl:149
+#: content/themes/default/templates/settings.tpl:82
+#: content/themes/default/templates/settings.tpl:103
+#: content/themes/default/templates/settings.tpl:132
+#: content/themes/default/templates/settings.tpl:234
+#: content/themes/default/templates/settings.tpl:259
+#: content/themes/default/templates/settings.tpl:285
+#: content/themes/default/templates/settings.tpl:315
+#: content/themes/default/templates/settings.tpl:516
+#: content/themes/default/templates/started.tpl:116
+msgid "Save Changes"
+msgstr "Wijzigingen Opslaan"
+
+#: content/themes/default/templates/admin.ads.tpl:113
+msgid ""
+"When you add mutiple ads at the samle location, they will be displayed "
+"randomly"
+msgstr ""
+"Wanneer u mutiple advertenties op de assembler locatie toevoegt, worden ze "
+"willekeurig weergegeven"
+
+#: content/themes/default/templates/admin.announcements.tpl:6
+msgid "Add New Announcement"
+msgstr "Add New Aankondiging"
+
+#: content/themes/default/templates/admin.announcements.tpl:22
+#: content/themes/default/templates/admin.announcements.tpl:57
+#: content/themes/default/templates/admin.announcements.tpl:157
+#: content/themes/default/templates/admin.categories.tpl:51
+#: content/themes/default/templates/admin.categories.tpl:79
+#: content/themes/default/templates/admin.games.tpl:23
+#: content/themes/default/templates/admin.games.tpl:59
+#: content/themes/default/templates/admin.games.tpl:131
+#: content/themes/default/templates/admin.themes.tpl:23
+#: content/themes/default/templates/admin.themes.tpl:76
+#: content/themes/default/templates/admin.themes.tpl:117
+#: content/themes/default/templates/admin.users.tpl:24
+#: content/themes/default/templates/admin.verified.tpl:15
+msgid "Name"
+msgstr "Naam"
+
+#: content/themes/default/templates/admin.announcements.tpl:23
+#: content/themes/default/templates/admin.announcements.tpl:81
+#: content/themes/default/templates/admin.announcements.tpl:181
+msgid "Type"
+msgstr "Type"
+
+#: content/themes/default/templates/admin.announcements.tpl:24
+#: content/themes/default/templates/admin.announcements.tpl:104
+#: content/themes/default/templates/admin.announcements.tpl:204
+msgid "Start Date"
+msgstr "Kies de datum dat je de bestelling wilt ontvangen / afhalen:"
+
+#: content/themes/default/templates/admin.announcements.tpl:25
+#: content/themes/default/templates/admin.announcements.tpl:121
+#: content/themes/default/templates/admin.announcements.tpl:221
+msgid "End Date"
+msgstr "Kies de datum dat je de bestelling wilt retourneren:"
+
+#: content/themes/default/templates/admin.announcements.tpl:62
+#: content/themes/default/templates/admin.announcements.tpl:162
+msgid "Announcement name will appear only in the admin panel (mandatory)"
+msgstr "naam aankondiging zal alleen in de admin panel verschijnen (verplicht)"
+
+#: content/themes/default/templates/admin.announcements.tpl:74
+#: content/themes/default/templates/admin.announcements.tpl:174
+msgid "Announcement title will appear on the announcement block"
+msgstr "Aankondiging titel zal verschijnen op de aankondiging blok"
+
+#: content/themes/default/templates/admin.announcements.tpl:114
+#: content/themes/default/templates/admin.announcements.tpl:131
+#: content/themes/default/templates/admin.announcements.tpl:214
+#: content/themes/default/templates/admin.announcements.tpl:231
+msgid "Your current server datetime is"
+msgstr "Uw huidige server datetime is"
+
+#: content/themes/default/templates/admin.categories.tpl:6
+msgid "Add New Category"
+msgstr "Nieuwe categorie toevoegen"
+
+#: content/themes/default/templates/admin.dashboard.tpl:3
+#: content/themes/default/templates/admin.tpl:17
+msgid "Dashboard"
+msgstr "Gebruikerspaneel"
+
+#: content/themes/default/templates/admin.dashboard.tpl:13
+#: content/themes/default/templates/admin.dashboard.tpl:55
+msgid "Manage Users"
+msgstr "Beheer Gebruikers"
+
+#: content/themes/default/templates/admin.dashboard.tpl:23
+msgid "Males"
+msgstr "Mannelijk"
+
+#: content/themes/default/templates/admin.dashboard.tpl:33
+msgid "Females"
+msgstr "Vrouwelijk"
+
+#: content/themes/default/templates/admin.dashboard.tpl:45
+msgid "Manage Banned"
+msgstr "Verboden beheren"
+
+#: content/themes/default/templates/admin.dashboard.tpl:54
+#: includes/ajax/albums/action.php:22 includes/ajax/albums/modal.php:22
+#: includes/ajax/albums/update.php:22
+#: includes/ajax/chat/get.conversation.php:22
+#: includes/ajax/chat/get.messages.php:22 includes/ajax/chat/post.php:22
+#: includes/ajax/chat/reaction.php:22 includes/ajax/data/create.php:22
+#: includes/ajax/data/delete.php:22 includes/ajax/data/load.php:22
+#: includes/ajax/data/report.php:22 includes/ajax/data/upload.php:30
+#: includes/ajax/posts/comment.php:22 includes/ajax/posts/edit.php:22
+#: includes/ajax/posts/filter.php:22 includes/ajax/posts/post.php:22
+#: includes/ajax/posts/reaction.php:22 includes/ajax/posts/scraber.php:22
+#: includes/ajax/posts/who_likes.php:22 includes/ajax/posts/who_shares.php:22
+#: includes/ajax/users/connect.php:22 includes/ajax/users/image.php:22
+#: includes/ajax/users/mutual_friends.php:22
+#: includes/ajax/users/popover.php:22 includes/ajax/users/settings.php:22
+#: includes/ajax/users/started.php:22
+msgid "Not Activated"
+msgstr "Niet geactiveerd"
+
+#: content/themes/default/templates/admin.dashboard.tpl:65
+msgid "Manage Online"
+msgstr "Online beheren"
+
+#: content/themes/default/templates/admin.dashboard.tpl:76
+#: content/themes/default/templates/search.tpl:48
+msgid "Posts"
+msgstr "Berichten"
+
+#: content/themes/default/templates/admin.dashboard.tpl:77
+#: content/themes/default/templates/admin.dashboard.tpl:87
+msgid "Manage Reports"
+msgstr "Rapporten beheren"
+
+#: content/themes/default/templates/admin.dashboard.tpl:86
+msgid "Comments"
+msgstr "Reacties"
+
+#: content/themes/default/templates/admin.dashboard.tpl:99
+#: content/themes/default/templates/index.tpl:264
+#: content/themes/default/templates/_header.tpl:129
+msgid "Manage Pages"
+msgstr "Pagina's beheren"
+
+#: content/themes/default/templates/admin.dashboard.tpl:109
+#: content/themes/default/templates/index.tpl:290
+#: content/themes/default/templates/_header.tpl:138
+msgid "Manage Groups"
+msgstr "Groepen beheren"
+
+#: content/themes/default/templates/admin.design.tpl:12
+msgid "Website Logo"
+msgstr "Website logo"
+
+#: content/themes/default/templates/admin.design.tpl:35
+msgid "The perfect size for your logo should be (wdith: 60px & height: 46px)"
+msgstr "De perfecte maat voor uw logo moet worden (wdith: 60px & hoogte: 46px)"
+
+#: content/themes/default/templates/admin.design.tpl:44
+msgid "Website Favicon"
+msgstr "website Favicon"
+
+#: content/themes/default/templates/admin.design.tpl:53
+#: content/themes/default/templates/admin.design.tpl:94
+msgid "Use the default"
+msgstr "Gebruik de standaard"
+
+#: content/themes/default/templates/admin.design.tpl:53
+#: content/themes/default/templates/admin.design.tpl:94
+msgid "preview"
+msgstr "voorbeeld"
+
+#: content/themes/default/templates/admin.design.tpl:76
+msgid ""
+"The perfect size for your favicon should be (wdith: 196px & height: 196px)"
+msgstr ""
+"De perfecte maat voor uw favicon moet zijn (wdith: 196px & height: 196px)"
+
+#: content/themes/default/templates/admin.design.tpl:85
+msgid "Website OG-Image"
+msgstr "Website logo"
+
+#: content/themes/default/templates/admin.design.tpl:117
+msgid ""
+"The perfect size for your og-image should be (wdith: 590px & height: 300px)"
+msgstr ""
+"De perfecte maat voor uw og-afbeelding moet worden (wdith: 590px & height: "
+"300px)"
+
+#: content/themes/default/templates/admin.design.tpl:126
+msgid "Enable Customization"
+msgstr "Aanpassing inschakelen"
+
+#: content/themes/default/templates/admin.design.tpl:134
+msgid "Turn the customization On and Off"
+msgstr "De aanpassing aan en uit zetten"
+
+#: content/themes/default/templates/admin.design.tpl:141
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: content/themes/default/templates/admin.design.tpl:153
+msgid "Link Color"
+msgstr "Link kleur"
+
+#: content/themes/default/templates/admin.design.tpl:165
+msgid "Header Color"
+msgstr "Kopregel kleur"
+
+#: content/themes/default/templates/admin.design.tpl:177
+msgid "Header Search Background"
+msgstr "Kop zoeken achtergrond"
+
+#: content/themes/default/templates/admin.design.tpl:189
+msgid "Header Search Font"
+msgstr "Header Zoekoptie"
+
+#: content/themes/default/templates/admin.design.tpl:201
+#: content/themes/default/templates/admin.design.tpl:213
+msgid "Button Primary"
+msgstr "Knop primaire"
+
+#: content/themes/default/templates/admin.games.tpl:6
+msgid "Add New game"
+msgstr "Toevoegen nieuw spel"
+
+#: content/themes/default/templates/admin.games.tpl:22
+#: content/themes/default/templates/admin.games.tpl:86
+#: content/themes/default/templates/admin.games.tpl:158
+#: content/themes/default/templates/admin.themes.tpl:22
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: content/themes/default/templates/admin.games.tpl:67
+#: content/themes/default/templates/admin.games.tpl:139
+#: content/themes/default/templates/group.tpl:421
+#: content/themes/default/templates/index.tpl:421
+#: content/themes/default/templates/index.tpl:454
+#: content/themes/default/templates/page.tpl:385
+msgid "Description"
+msgstr "Beschrijving"
+
+#: content/themes/default/templates/admin.games.tpl:75
+#: content/themes/default/templates/admin.games.tpl:147
+msgid "Game Source"
+msgstr "Spel bron"
+
+#: content/themes/default/templates/admin.games.tpl:80
+#: content/themes/default/templates/admin.games.tpl:152
+msgid "The source link of your embedded game"
+msgstr "De bron link van uw ingesloten spel"
+
+#: content/themes/default/templates/admin.groups.tpl:6
+msgid "Go to this group"
+msgstr "Ga naar deze groep"
+
+#: content/themes/default/templates/admin.groups.tpl:21
+#: content/themes/default/templates/admin.pages.tpl:21
+#: content/themes/default/templates/admin.users.tpl:22
+#: content/themes/default/templates/admin.verified.tpl:13
+#: content/themes/default/templates/admin.verified.tpl:68
+msgid "Picture"
+msgstr "Afbeelding"
+
+#: content/themes/default/templates/admin.groups.tpl:22
+#: content/themes/default/templates/admin.pages.tpl:22
+#: content/themes/default/templates/admin.static.tpl:56
+#: content/themes/default/templates/admin.static.tpl:99
+#: content/themes/default/templates/admin.verified.tpl:69
+msgid "URL"
+msgstr "URL"
+
+#: content/themes/default/templates/admin.groups.tpl:24
+#: content/themes/default/templates/admin.groups.tpl:76
+#: content/themes/default/templates/group.tpl:96
+#: content/themes/default/templates/group.tpl:341
+#: content/themes/default/templates/group.tpl:349
+#: content/themes/default/templates/__feeds_group.tpl:24
+msgid "Members"
+msgstr "Leden"
+
+#: content/themes/default/templates/admin.groups.tpl:72
+msgid "Group ID"
+msgstr "Groeps-ID"
+
+#: content/themes/default/templates/admin.groups.tpl:85
+msgid "Group Info"
+msgstr "Groep Info"
+
+#: content/themes/default/templates/admin.groups.tpl:107
+#: content/themes/default/templates/admin.groups.tpl:116
+#: content/themes/default/templates/admin.pages.tpl:144
+#: content/themes/default/templates/admin.pages.tpl:153
+#: content/themes/default/templates/admin.users.tpl:23
+#: content/themes/default/templates/admin.users.tpl:126
+#: content/themes/default/templates/admin.users.tpl:395
+#: content/themes/default/templates/admin.verified.tpl:14
+#: content/themes/default/templates/group.tpl:417
+#: content/themes/default/templates/index.tpl:417
+#: content/themes/default/templates/index.tpl:450
+#: content/themes/default/templates/page.tpl:381
+#: content/themes/default/templates/settings.tpl:57
+#: content/themes/default/templates/settings.tpl:78
+#: content/themes/default/templates/signin.tpl:53
+#: content/themes/default/templates/signup.tpl:53
+#: content/themes/default/templates/signup_social.tpl:20
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: content/themes/default/templates/admin.languages.tpl:6
+msgid "Add New Language"
+msgstr "Voeg een taal toe"
+
+#: content/themes/default/templates/admin.languages.tpl:23
+#: content/themes/default/templates/admin.languages.tpl:100
+#: content/themes/default/templates/admin.languages.tpl:198
+msgid "Code"
+msgstr "Code"
+
+#: content/themes/default/templates/admin.languages.tpl:24
+msgid "Flag"
+msgstr "Markering"
+
+#: content/themes/default/templates/admin.languages.tpl:25
+msgid "Dir"
+msgstr "Dir"
+
+#: content/themes/default/templates/admin.languages.tpl:26
+#: content/themes/default/templates/admin.languages.tpl:72
+#: content/themes/default/templates/admin.languages.tpl:170
+#: content/themes/default/templates/admin.themes.tpl:24
+#: content/themes/default/templates/admin.themes.tpl:62
+#: content/themes/default/templates/admin.themes.tpl:103
+msgid "Default"
+msgstr "Standaard"
+
+#: content/themes/default/templates/admin.languages.tpl:27
+#: content/themes/default/templates/admin.languages.tpl:86
+#: content/themes/default/templates/admin.languages.tpl:184
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: content/themes/default/templates/admin.languages.tpl:41
+#: content/themes/default/templates/admin.languages.tpl:48
+#: content/themes/default/templates/admin.pages.tpl:54
+#: content/themes/default/templates/admin.themes.tpl:38
+#: content/themes/default/templates/admin.users.tpl:53
+#: content/themes/default/templates/admin.verified.tpl:44
+#: content/themes/default/templates/admin.verified.tpl:101
+msgid "Yes"
+msgstr "Ja"
+
+#: content/themes/default/templates/admin.languages.tpl:43
+#: content/themes/default/templates/admin.languages.tpl:50
+#: content/themes/default/templates/admin.pages.tpl:56
+#: content/themes/default/templates/admin.themes.tpl:40
+#: content/themes/default/templates/admin.users.tpl:55
+#: content/themes/default/templates/admin.verified.tpl:46
+#: content/themes/default/templates/admin.verified.tpl:103
+msgid "No"
+msgstr "Nee"
+
+#: content/themes/default/templates/admin.languages.tpl:80
+#: content/themes/default/templates/admin.languages.tpl:178
+msgid "Make it the default language of the site"
+msgstr "Maken het de standaardtaal van de site"
+
+#: content/themes/default/templates/admin.languages.tpl:94
+#: content/themes/default/templates/admin.languages.tpl:192
+msgid "Make it enbaled so the user can translate the site to it"
+msgstr "Het enbaled maken zodat de gebruiker kan de site aan het vertalen"
+
+#: content/themes/default/templates/admin.languages.tpl:105
+#: content/themes/default/templates/admin.languages.tpl:203
+msgid "Language country_code"
+msgstr "Taal country_code"
+
+#: content/themes/default/templates/admin.languages.tpl:105
+#: content/themes/default/templates/admin.languages.tpl:127
+#: content/themes/default/templates/admin.languages.tpl:203
+#: content/themes/default/templates/admin.languages.tpl:225
+msgid "For Example:"
+msgstr "Bijvoorbeeld:"
+
+#: content/themes/default/templates/admin.languages.tpl:105
+#: content/themes/default/templates/admin.languages.tpl:127
+#: content/themes/default/templates/admin.languages.tpl:203
+#: content/themes/default/templates/admin.languages.tpl:225
+msgid "Click Here"
+msgstr "Klik hier"
+
+#: content/themes/default/templates/admin.languages.tpl:111
+#: content/themes/default/templates/admin.languages.tpl:209
+msgid "Native Name"
+msgstr "Inheemse naam"
+
+#: content/themes/default/templates/admin.languages.tpl:116
+#: content/themes/default/templates/admin.languages.tpl:214
+msgid "The native name of this language"
+msgstr "De oorspronkelijke naam van deze taal"
+
+#: content/themes/default/templates/admin.languages.tpl:122
+#: content/themes/default/templates/admin.languages.tpl:220
+msgid "Flag Code"
+msgstr "Vlag Code"
+
+#: content/themes/default/templates/admin.languages.tpl:127
+#: content/themes/default/templates/admin.languages.tpl:225
+msgid "The country flag code"
+msgstr "De landcode voor de vlag"
+
+#: content/themes/default/templates/admin.languages.tpl:133
+#: content/themes/default/templates/admin.languages.tpl:231
+msgid "Direction"
+msgstr "Richting"
+
+#: content/themes/default/templates/admin.languages.tpl:141
+#: content/themes/default/templates/admin.languages.tpl:239
+msgid "The direction of this language 'Left To Right' or 'Right To Left'"
+msgstr "De richting van deze taal 'Links naar rechts' of 'Rechts naar links'"
+
+#: content/themes/default/templates/admin.languages.tpl:165
+msgid "Before add a new language you need to know 'gettext'"
+msgstr "Voordat een nieuwe taal die u moet weten 'gettext' toevoegen"
+
+#: content/themes/default/templates/admin.pages.tpl:6
+msgid "Go to this page"
+msgstr "Ga naar deze pagina"
+
+#: content/themes/default/templates/admin.pages.tpl:24
+#: content/themes/default/templates/admin.pages.tpl:88
+#: content/themes/default/templates/admin.verified.tpl:71
+#: content/themes/default/templates/ajax.popover.tpl:104
+#: content/themes/default/templates/profile.tpl:140
+#: content/themes/default/templates/profile.tpl:405
+#: content/themes/default/templates/profile.tpl:801
+#: content/themes/default/templates/__feeds_page.tpl:24
+msgid "Likes"
+msgstr "Vind ik leuks"
+
+#: content/themes/default/templates/admin.pages.tpl:84
+msgid "Page ID"
+msgstr "Pagina-ID"
+
+#: content/themes/default/templates/admin.pages.tpl:97
+msgid "Page Info"
+msgstr "Pagina-info"
+
+#: content/themes/default/templates/admin.pages.tpl:110
+msgid "Verified Page"
+msgstr "Geverifieerde pagina"
+
+#: content/themes/default/templates/admin.pages.tpl:122
+#: content/themes/default/templates/index.tpl:405
+#: content/themes/default/templates/page.tpl:369
+msgid "Category"
+msgstr "Categorie"
+
+#: content/themes/default/templates/admin.reports.tpl:12
+msgid "Reporter Picture"
+msgstr "Verslaggever foto"
+
+#: content/themes/default/templates/admin.reports.tpl:13
+msgid "Reporter Name"
+msgstr "Verslaggever naam"
+
+#: content/themes/default/templates/admin.reports.tpl:14
+msgid "Node"
+msgstr "Node"
+
+#: content/themes/default/templates/admin.reports.tpl:15
+msgid "Time"
+msgstr "Tijd"
+
+#: content/themes/default/templates/admin.settings.tpl:12
+msgid "System"
+msgstr "Systeem"
+
+#: content/themes/default/templates/admin.settings.tpl:17
+msgid "Registration"
+msgstr "Registratie"
+
+#: content/themes/default/templates/admin.settings.tpl:22
+msgid "Emails"
+msgstr "E-mails"
+
+#: content/themes/default/templates/admin.settings.tpl:27
+#: content/themes/default/templates/admin.users.tpl:482
+#: content/themes/default/templates/settings.tpl:339
+#: content/themes/default/templates/_js_templates.tpl:428
+msgid "Chat"
+msgstr "Chat"
+
+#: content/themes/default/templates/admin.settings.tpl:32
+msgid "Uploads"
+msgstr "Uploads"
+
+#: content/themes/default/templates/admin.settings.tpl:37
+msgid "Security"
+msgstr "Beveiliging"
+
+#: content/themes/default/templates/admin.settings.tpl:42
+msgid "Limits"
+msgstr "grenzen"
+
+#: content/themes/default/templates/admin.settings.tpl:47
+msgid "Analytics"
+msgstr "Statistieken"
+
+#: content/themes/default/templates/admin.settings.tpl:60
+msgid "Website Live"
+msgstr "Website Live"
+
+#: content/themes/default/templates/admin.settings.tpl:68
+msgid "Turn the entire website On and Off"
+msgstr "De gehele website inschakelen en uitschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:75
+msgid "Shutdown Message"
+msgstr "Afsluiten bericht"
+
+#: content/themes/default/templates/admin.settings.tpl:80
+msgid "The text that is presented when the site is closed"
+msgstr "De tekst die wordt weergegeven wanneer de site is gesloten"
+
+#: content/themes/default/templates/admin.settings.tpl:87
+msgid "Website Public"
+msgstr "Openbare website"
+
+#: content/themes/default/templates/admin.settings.tpl:95
+msgid "Disable it to prevent non logged users to view website"
+msgstr ""
+"Uitschakelen om te voorkomen dat niet-geregistreerde gebruikers weer te "
+"geven van de website"
+
+#: content/themes/default/templates/admin.settings.tpl:104
+msgid "Website Title"
+msgstr "Website titel"
+
+#: content/themes/default/templates/admin.settings.tpl:109
+msgid "Title of your website"
+msgstr "Titel van uw website"
+
+#: content/themes/default/templates/admin.settings.tpl:116
+msgid "Website Description"
+msgstr "Website omschrijving"
+
+#: content/themes/default/templates/admin.settings.tpl:121
+msgid "Description of your website"
+msgstr "Beschrijving van uw website"
+
+#: content/themes/default/templates/admin.settings.tpl:129
+msgid "Website Keywords"
+msgstr "Website Sleutelwoorden"
+
+#: content/themes/default/templates/admin.settings.tpl:134
+msgid "Example: social, sngine, social site"
+msgstr "Voorbeeld: sngine, sociale, sociale site"
+
+#: content/themes/default/templates/admin.settings.tpl:141
+msgid "Website Path"
+msgstr "Website pad"
+
+#: content/themes/default/templates/admin.settings.tpl:146
+msgid "The path of your system"
+msgstr "Het pad van uw systeem"
+
+#: content/themes/default/templates/admin.settings.tpl:153
+msgid "Uploads Directory"
+msgstr "Upload Directory"
+
+#: content/themes/default/templates/admin.settings.tpl:158
+msgid "The path of uploads directory"
+msgstr "Het pad van de map uploads"
+
+#: content/themes/default/templates/admin.settings.tpl:167
+msgid "Wall Posts Enabled"
+msgstr "Prikbord berichten Ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:175
+msgid "Users can publish posts on their friends walls"
+msgstr "Gebruikers kunnen berichten publiceren op hun vrienden muren"
+
+#: content/themes/default/templates/admin.settings.tpl:182
+msgid "Pages Enabled"
+msgstr "Pagina's ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:190
+msgid "Users can create pages or only admins/moderators"
+msgstr "Gebruikers kunnen maken, pagina's of alleen beheerders/moderators"
+
+#: content/themes/default/templates/admin.settings.tpl:197
+msgid "Groups Enabled"
+msgstr "Groepen ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:205
+msgid "Users can create groups or only admins/moderators"
+msgstr "Gebruikers kunnen maken, groepen of alleen beheerders/moderators"
+
+#: content/themes/default/templates/admin.settings.tpl:212
+msgid "Profile visit notification"
+msgstr "Profiel bezoek kennisgeving"
+
+#: content/themes/default/templates/admin.settings.tpl:220
+msgid "Turn the profile visit notification On and Off"
+msgstr "De profiel bezoek aanmelding inschakelen en uitschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:227
+msgid "Games Enabled"
+msgstr "Spellen ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:235
+msgid "Turn the games On and Off"
+msgstr "Zet de spellen aan en uit"
+
+#: content/themes/default/templates/admin.settings.tpl:242
+msgid "Geolocation Enabled"
+msgstr "Geolocation ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:250
+msgid "Turn the post Geolocation On and Off"
+msgstr "De post Geolocation inschakelen en uitschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:277
+msgid "Registration Enabled"
+msgstr "Registratie ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:285
+msgid "Turn registration On and Off"
+msgstr "Registratie inschakelen en uitschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:292
+msgid "Send Activation Email"
+msgstr "Activatie E-mail verzenden"
+
+#: content/themes/default/templates/admin.settings.tpl:300
+msgid "Enable/Disable activation email after registration"
+msgstr "Enable/Disable activatie e-mail na registratie"
+
+#: content/themes/default/templates/admin.settings.tpl:315
+msgid "Enable/Disable getting started page after registration"
+msgstr "Enable/Disable introductie pagina na registratie"
+
+#: content/themes/default/templates/admin.settings.tpl:330
+msgid "Allow users to delete their account"
+msgstr "Toestaan dat gebruikers hun account verwijderen"
+
+#: content/themes/default/templates/admin.settings.tpl:337
+msgid "Accounts/IP"
+msgstr "Rekeningen/IP"
+
+#: content/themes/default/templates/admin.settings.tpl:342
+msgid "Number of accounts allowed to register per IP (0 for unlimited)"
+msgstr "Hoeveel accounts mag registreren per IP (0 voor ongelimiteerd)"
+
+#: content/themes/default/templates/admin.settings.tpl:351
+msgid "Social Logins"
+msgstr "Sociale Logins"
+
+#: content/themes/default/templates/admin.settings.tpl:359
+msgid ""
+"Turn registration/login via social media (Facebook, Twitter and etc) On and "
+"Off"
+msgstr ""
+"Registratie/login via sociale media (Facebook, Twitter en etc) inschakelen "
+"en uitschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:367
+msgid "Facebook Login"
+msgstr "Facebook log in"
+
+#: content/themes/default/templates/admin.settings.tpl:375
+msgid "Turn registration/login via Facebook On and Off"
+msgstr "Registratie/login via Facebook op en uit te schakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:382
+msgid "Facebook App ID"
+msgstr "Facebook-App-ID"
+
+#: content/themes/default/templates/admin.settings.tpl:391
+msgid "Facebook App Secret"
+msgstr "Facebook App Secret"
+
+#: content/themes/default/templates/admin.settings.tpl:402
+msgid "Twitter Login"
+msgstr "Twitter Inloggen"
+
+#: content/themes/default/templates/admin.settings.tpl:410
+msgid "Turn registration/login via Twitter On and Off"
+msgstr "Registratie/login via Twitter op en uit te schakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:417
+msgid "Twitter App ID"
+msgstr "Twitter"
+
+#: content/themes/default/templates/admin.settings.tpl:426
+msgid "Twitter App Secret"
+msgstr "Twitter App Secret Key"
+
+#: content/themes/default/templates/admin.settings.tpl:437
+msgid "Google Login"
+msgstr "Google Login"
+
+#: content/themes/default/templates/admin.settings.tpl:445
+msgid "Turn registration/login via Google On and Off"
+msgstr "Registratie/login via Google op en uit te schakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:452
+msgid "Google App ID"
+msgstr "Google App ID"
+
+#: content/themes/default/templates/admin.settings.tpl:461
+msgid "Google App Secret"
+msgstr "Google App geheim"
+
+#: content/themes/default/templates/admin.settings.tpl:472
+msgid "Linkedin Login"
+msgstr "Linkedin Inloggen"
+
+#: content/themes/default/templates/admin.settings.tpl:480
+msgid "Turn registration/login via Linkedin On and Off"
+msgstr "Registratie/inloggen via Linkedin op en af schakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:487
+msgid "Linkedin App ID"
+msgstr "LinkedIn App ID"
+
+#: content/themes/default/templates/admin.settings.tpl:496
+msgid "Linkedin App Secret"
+msgstr "LinkedIn App Secret"
+
+#: content/themes/default/templates/admin.settings.tpl:507
+msgid "Vkontakte Login"
+msgstr "VKontakte Login"
+
+#: content/themes/default/templates/admin.settings.tpl:515
+msgid "Turn registration/login via Vkontakte On and Off"
+msgstr "Registratie/login via Vkontakte op en af schakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:522
+msgid "Vkontakte App ID"
+msgstr "VKontakte App ID"
+
+#: content/themes/default/templates/admin.settings.tpl:531
+msgid "Vkontakte App Secret"
+msgstr "VKontakte App Secret"
+
+#: content/themes/default/templates/admin.settings.tpl:561
+msgid "SMTP Emails"
+msgstr "SMTP-E-mails"
+
+#: content/themes/default/templates/admin.settings.tpl:569
+#: content/themes/default/templates/admin.settings.tpl:594
+msgid "Enable/Disable SMTP email system"
+msgstr "Enable/Disable SMTP-e-mailsysteem"
+
+#: content/themes/default/templates/admin.settings.tpl:570
+#: content/themes/default/templates/admin.settings.tpl:595
+msgid "PHP mail() function will be used in case of disabled"
+msgstr ""
+"PHP mail() functie zal worden gebruikt in het geval van mensen met een "
+"handicap"
+
+#: content/themes/default/templates/admin.settings.tpl:577
+msgid "SMTP Server"
+msgstr "SMTP-server"
+
+#: content/themes/default/templates/admin.settings.tpl:586
+msgid "SMTP Require Authentication"
+msgstr "SMTP verificatie vereisen"
+
+#: content/themes/default/templates/admin.settings.tpl:602
+msgid "SMTP Port"
+msgstr "SMTP-poort"
+
+#: content/themes/default/templates/admin.settings.tpl:611
+msgid "SMTP Username"
+msgstr "SMTP Gebruikersnaam"
+
+#: content/themes/default/templates/admin.settings.tpl:620
+msgid "SMTP Password"
+msgstr "SMTP Wachtwoord"
+
+#: content/themes/default/templates/admin.settings.tpl:649
+msgid "Chat Enabled"
+msgstr "Chat ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:657
+msgid "Turn the chat system On and Off"
+msgstr "De chat-systeem inschakelen en uitschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:664
+msgid "User Status Enabled"
+msgstr "Gebruikersstatus ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:672
+msgid "Turn the Last Seen On and Off"
+msgstr "Draai de laatste gezien in- en uitschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:699
+msgid "Uploads Prefix"
+msgstr "Uploads voorvoegsel"
+
+#: content/themes/default/templates/admin.settings.tpl:704
+msgid "Add a prefix to the uploaded files"
+msgstr "Een voorvoegsel toevoegen aan de geuploade dossiers"
+
+#: content/themes/default/templates/admin.settings.tpl:713
+msgid "Max profile photo size"
+msgstr "Max profiel fotoformaat"
+
+#: content/themes/default/templates/admin.settings.tpl:718
+msgid "The Maximum size of profile photo"
+msgstr "De maximale grootte van profielfoto"
+
+#: content/themes/default/templates/admin.settings.tpl:718
+#: content/themes/default/templates/admin.settings.tpl:730
+msgid "in kilobytes (1 M = 1024 KB)"
+msgstr "in kilobytes (1 M = 1024 KB)"
+
+#: content/themes/default/templates/admin.settings.tpl:725
+msgid "Max cover photo size"
+msgstr "Max dekking fotoformaat"
+
+#: content/themes/default/templates/admin.settings.tpl:730
+msgid "The Maximum size of cover photo"
+msgstr "De maximale grootte van de hoes is een foto"
+
+#: content/themes/default/templates/admin.settings.tpl:739
+msgid "Photo Upload"
+msgstr "Foto Toevoegen"
+
+#: content/themes/default/templates/admin.settings.tpl:747
+msgid "Enable photo upload to share & upload photos to the site"
+msgstr "Foto uploaden om te delen & foto's uploaden naar de site inschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:754
+msgid "Max photo size"
+msgstr "Het formaat van de foto van Max"
+
+#: content/themes/default/templates/admin.settings.tpl:759
+msgid "The Maximum size of uploaded photo in posts"
+msgstr "De maximumgrootte van geüploade foto in berichten"
+
+#: content/themes/default/templates/admin.settings.tpl:759
+#: content/themes/default/templates/admin.settings.tpl:786
+#: content/themes/default/templates/admin.settings.tpl:825
+#: content/themes/default/templates/admin.settings.tpl:864
+msgid "in kilobytes (1M = 1024KB)"
+msgstr "in kB (1 M = 1024 Kilobytes)"
+
+#: content/themes/default/templates/admin.settings.tpl:766
+msgid "Video Upload"
+msgstr "Video Toevoegen"
+
+#: content/themes/default/templates/admin.settings.tpl:774
+msgid "Enable video upload to share & upload videos to the site"
+msgstr ""
+"Video's uploaden om te delen & video's uploaden naar de site inschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:781
+msgid "Max video size"
+msgstr "Max video formaat"
+
+#: content/themes/default/templates/admin.settings.tpl:786
+msgid "The Maximum size of uploaded video in posts"
+msgstr "De maximumgrootte van geüploade video in berichten"
+
+#: content/themes/default/templates/admin.settings.tpl:793
+msgid "Allowed video extensions"
+msgstr "Toegestane video formaten"
+
+#: content/themes/default/templates/admin.settings.tpl:798
+msgid "Allowed video extensions (separated with comma ',)"
+msgstr "Toegestane video formaten (met door komma's gescheiden ',)"
+
+#: content/themes/default/templates/admin.settings.tpl:805
+msgid "Audio Upload"
+msgstr "Audio uploaden"
+
+#: content/themes/default/templates/admin.settings.tpl:813
+msgid "Enable audio upload to share & upload sounds to the site"
+msgstr ""
+"Audio uploaden om te delen & geluiden uploaden naar de site inschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:820
+msgid "Max audio size"
+msgstr "Max audio formaat"
+
+#: content/themes/default/templates/admin.settings.tpl:825
+msgid "The Maximum size of uploaded audio in posts"
+msgstr "De maximumgrootte van geüploade audio in berichten"
+
+#: content/themes/default/templates/admin.settings.tpl:832
+msgid "Allowed audio extensions"
+msgstr "Toegestane audio formaten"
+
+#: content/themes/default/templates/admin.settings.tpl:837
+msgid "Allowed audio extensions (separated with comma ',)"
+msgstr "Toegestane audio formaten (met door komma's gescheiden ',)"
+
+#: content/themes/default/templates/admin.settings.tpl:844
+msgid "File Upload"
+msgstr "Bestand uploaded"
+
+#: content/themes/default/templates/admin.settings.tpl:852
+msgid "Enable file upload to share & upload files to the site"
+msgstr ""
+"Bestand uploaden om te delen & bestanden uploaden naar de site inschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:859
+msgid "Max file size"
+msgstr "Max bestandsgrootte"
+
+#: content/themes/default/templates/admin.settings.tpl:864
+msgid "The Maximum size of uploaded file in posts"
+msgstr "De maximumgrootte van geüploade bestand in berichten"
+
+#: content/themes/default/templates/admin.settings.tpl:871
+msgid "Allowed file extensions"
+msgstr "Toegestane bestanden"
+
+#: content/themes/default/templates/admin.settings.tpl:876
+msgid "Allowed file extensions (separated with comma ',)"
+msgstr "Toegelaten extensies (gescheiden door komma \",)"
+
+#: content/themes/default/templates/admin.settings.tpl:903
+msgid "Censored Words Enabled"
+msgstr "Gecensureerde woorden ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:911
+msgid "Enable/Disable Words to be censored"
+msgstr "Enable/Disable woorden worden gecensureerd"
+
+#: content/themes/default/templates/admin.settings.tpl:918
+msgid "Censored Words"
+msgstr "Gecensureerde woorden"
+
+#: content/themes/default/templates/admin.settings.tpl:923
+msgid "Words to be censored, separated by a comma (,)"
+msgstr "Woorden worden gecensureerd, gescheiden door een komma ()"
+
+#: content/themes/default/templates/admin.settings.tpl:932
+msgid "reCAPTCHA Enabled"
+msgstr "reCAPTCHA ingeschakeld"
+
+#: content/themes/default/templates/admin.settings.tpl:940
+msgid "Turn reCAPTCHA On and Off"
+msgstr "ReCAPTCHA inschakelen en uitschakelen"
+
+#: content/themes/default/templates/admin.settings.tpl:947
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA Site Key"
+
+#: content/themes/default/templates/admin.settings.tpl:956
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA Secret Key"
+
+#: content/themes/default/templates/admin.settings.tpl:986
+msgid "Data Heartbeat"
+msgstr "Gegevens Heartbeat"
+
+#: content/themes/default/templates/admin.settings.tpl:991
+msgid "The update interval to check for new data (in seconds)"
+msgstr "Het update-interval (in seconden) voor nieuwe gegevens controleren"
+
+#: content/themes/default/templates/admin.settings.tpl:998
+msgid "Chat Heartbeat"
+msgstr "Chat Heartbeat"
+
+#: content/themes/default/templates/admin.settings.tpl:1003
+msgid "The update interval to check for new messages (in seconds)"
+msgstr "Het update-interval te controleren op nieuwe berichten (in seconden)"
+
+#: content/themes/default/templates/admin.settings.tpl:1010
+msgid "Offline after"
+msgstr "Off line na"
+
+#: content/themes/default/templates/admin.settings.tpl:1015
+msgid ""
+"The amount of time to be considered online since the last user's activity "
+"(in seconds)"
+msgstr ""
+"De hoeveelheid tijd beschouwd online sinds van de laatste gebruiker "
+"activiteit (in seconden)"
+
+#: content/themes/default/templates/admin.settings.tpl:1026
+msgid "Minimum Results"
+msgstr "Minimale resultaten"
+
+#: content/themes/default/templates/admin.settings.tpl:1031
+msgid "The Min number of results per request"
+msgstr "Het Min aantal resultaten per aanvraag"
+
+#: content/themes/default/templates/admin.settings.tpl:1038
+msgid "Maximum Results"
+msgstr "maximum aantal resultaten"
+
+#: content/themes/default/templates/admin.settings.tpl:1043
+msgid "The Max number of results per request"
+msgstr "Het maximum aantal resultaten per aanvraag"
+
+#: content/themes/default/templates/admin.settings.tpl:1050
+msgid "Minimum Even Results"
+msgstr "Minimale zelfs resultaten"
+
+#: content/themes/default/templates/admin.settings.tpl:1055
+msgid "The Min even number of results per request"
+msgstr "De Min even aantal resultaten per aanvraag"
+
+#: content/themes/default/templates/admin.settings.tpl:1062
+msgid "Maximum Even Results"
+msgstr "maximum aantal resultaten"
+
+#: content/themes/default/templates/admin.settings.tpl:1067
+msgid "The Max even number of results per request"
+msgstr "Het Max zelfs aantal resultaten per aanvraag"
+
+#: content/themes/default/templates/admin.settings.tpl:1094
+msgid "Tracking Code"
+msgstr "Tracking Code"
+
+#: content/themes/default/templates/admin.settings.tpl:1099
+msgid "The analytics tracking code (Ex: Google Analytics)"
+msgstr "De conversiecode van analytics (Ex: Google Analytics)"
+
+#: content/themes/default/templates/admin.static.tpl:6
+msgid "Add New Page"
+msgstr "Nieuwe pagina toevoegen"
+
+#: content/themes/default/templates/admin.static.tpl:22
+msgid "Page URL"
+msgstr "Pagina link"
+
+#: content/themes/default/templates/admin.static.tpl:23
+msgid "Page Title"
+msgstr "Pagina Titel"
+
+#: content/themes/default/templates/admin.themes.tpl:6
+msgid "Add New Theme"
+msgstr "Nieuwe toevoegen"
+
+#: content/themes/default/templates/admin.themes.tpl:70
+#: content/themes/default/templates/admin.themes.tpl:111
+msgid "Make it the default theme of the site"
+msgstr "Het standaardthema van de website maken"
+
+#: content/themes/default/templates/admin.tpl:39
+#: content/themes/default/templates/admin.tpl:68
+#: content/themes/default/templates/admin.tpl:89
+#: content/themes/default/templates/admin.tpl:154
+#: content/themes/default/templates/admin.tpl:212
+#: content/themes/default/templates/admin.tpl:233
+#: content/themes/default/templates/admin.tpl:254
+#: content/themes/default/templates/admin.tpl:275
+msgid "Lists"
+msgstr "Lijsten"
+
+#: content/themes/default/templates/admin.tpl:110
+msgid "Show All Users"
+msgstr "Alle gebruikers tonen"
+
+#: content/themes/default/templates/admin.tpl:115
+msgid "List Admins"
+msgstr "Lijst Admins"
+
+#: content/themes/default/templates/admin.tpl:120
+msgid "List Moderators"
+msgstr "Lijst Moderators"
+
+#: content/themes/default/templates/admin.tpl:125
+msgid "List Online"
+msgstr "Lijst Online"
+
+#: content/themes/default/templates/admin.tpl:130
+msgid "List Banned"
+msgstr "Lijst verboden"
+
+#: content/themes/default/templates/admin.tpl:148
+msgid "Pages Categories"
+msgstr "Pagina's categorieën"
+
+#: content/themes/default/templates/admin.tpl:177
+msgid "Verify Badge"
+msgstr "Controleer of de Badge"
+
+#: content/themes/default/templates/admin.tpl:183
+msgid "List Users"
+msgstr "gebruikerslijst"
+
+#: content/themes/default/templates/admin.tpl:188
+msgid "List Pages"
+msgstr "Lijst Pagina&#39;s"
+
+#: content/themes/default/templates/admin.tpl:269
+msgid "games"
+msgstr "spellen"
+
+#: content/themes/default/templates/admin.tpl:290
+msgid "Build"
+msgstr "Build"
+
+#: content/themes/default/templates/admin.users.tpl:6
+msgid "Go to this profile"
+msgstr "Ga naar dit profiel"
+
+#: content/themes/default/templates/admin.users.tpl:25
+#: content/themes/default/templates/admin.users.tpl:221
+#: content/themes/default/templates/admin.verified.tpl:16
+msgid "IP"
+msgstr "IP adres"
+
+#: content/themes/default/templates/admin.users.tpl:26
+#: content/themes/default/templates/admin.users.tpl:87
+#: content/themes/default/templates/admin.verified.tpl:17
+#: content/themes/default/templates/group.tpl:53
+#: content/themes/default/templates/group.tpl:117
+#: content/themes/default/templates/_js_translator.tpl:12
+#: content/themes/default/templates/__feeds_group.tpl:11
+msgid "Joined"
+msgstr "Lid geworden"
+
+#: content/themes/default/templates/admin.users.tpl:27
+#: content/themes/default/templates/admin.verified.tpl:18
+#: includes/ajax/core/activation_email_resend.php:22
+#: includes/ajax/core/activation_email_reset.php:22
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: content/themes/default/templates/admin.users.tpl:83
+msgid "User ID"
+msgstr "Gebruikers ID"
+
+#: content/themes/default/templates/admin.users.tpl:91
+msgid "Last Login"
+msgstr "Laatste login:"
+
+#: content/themes/default/templates/admin.users.tpl:99
+#: content/themes/default/templates/admin.users.tpl:505
+#: content/themes/default/templates/admin.users.tpl:520
+#: content/themes/default/templates/admin.users.tpl:535
+#: content/themes/default/templates/admin.users.tpl:550
+#: content/themes/default/templates/admin.users.tpl:565
+#: content/themes/default/templates/admin.users.tpl:583
+#: content/themes/default/templates/admin.users.tpl:601
+#: content/themes/default/templates/ajax.album.add_photos.tpl:67
+#: content/themes/default/templates/ajax.album.add_photos.tpl:77
+#: content/themes/default/templates/ajax.popover.tpl:54
+#: content/themes/default/templates/index.tpl:231
+#: content/themes/default/templates/profile.tpl:57
+#: content/themes/default/templates/profile.tpl:114
+#: content/themes/default/templates/profile.tpl:134
+#: content/themes/default/templates/profile.tpl:214
+#: content/themes/default/templates/profile.tpl:361
+#: content/themes/default/templates/profile.tpl:484
+#: content/themes/default/templates/profile.tpl:492
+#: content/themes/default/templates/profile.tpl:684
+#: content/themes/default/templates/profile.tpl:691
+#: content/themes/default/templates/profile.tpl:748
+#: content/themes/default/templates/profile.tpl:755
+#: content/themes/default/templates/settings.tpl:362
+#: content/themes/default/templates/settings.tpl:380
+#: content/themes/default/templates/settings.tpl:398
+#: content/themes/default/templates/settings.tpl:416
+#: content/themes/default/templates/settings.tpl:434
+#: content/themes/default/templates/settings.tpl:452
+#: content/themes/default/templates/settings.tpl:470
+#: content/themes/default/templates/settings.tpl:488
+#: content/themes/default/templates/settings.tpl:506
+#: content/themes/default/templates/_js_translator.tpl:2
+#: content/themes/default/templates/_publisher.tpl:145
+#: content/themes/default/templates/_publisher.tpl:155
+#: content/themes/default/templates/__feeds_post.tpl:253
+#: content/themes/default/templates/__feeds_user.tpl:24
+#: includes/assets/js/sngine/user.js:682
+msgid "Friends"
+msgstr "Vrienden"
+
+#: content/themes/default/templates/admin.users.tpl:103
+#: content/themes/default/templates/profile.tpl:500
+#: content/themes/default/templates/profile.tpl:700
+#: content/themes/default/templates/profile.tpl:762
+msgid "Followings"
+msgstr "Achterban"
+
+#: content/themes/default/templates/admin.users.tpl:107
+#: content/themes/default/templates/profile.tpl:497
+#: content/themes/default/templates/profile.tpl:695
+#: content/themes/default/templates/profile.tpl:758
+msgid "Followers"
+msgstr "Volgers"
+
+#: content/themes/default/templates/admin.users.tpl:116
+msgid "Basic Info"
+msgstr "Basic Info"
+
+#: content/themes/default/templates/admin.users.tpl:121
+#: content/themes/default/templates/_header.tpl:110
+msgid "Profile"
+msgstr "Profiel"
+
+#: content/themes/default/templates/admin.users.tpl:131
+#: content/themes/default/templates/reset.tpl:14
+#: content/themes/default/templates/settings.tpl:62
+#: content/themes/default/templates/signin.tpl:53
+#: content/themes/default/templates/signup.tpl:57
+#: content/themes/default/templates/signup_social.tpl:24
+msgid "Email"
+msgstr "E-mailadres"
+
+#: content/themes/default/templates/admin.users.tpl:136
+#: content/themes/default/templates/admin.users.tpl:453
+#: content/themes/default/templates/settings.tpl:67
+#: content/themes/default/templates/signin.tpl:57
+#: content/themes/default/templates/signup.tpl:61
+#: content/themes/default/templates/signup_social.tpl:28
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: content/themes/default/templates/admin.users.tpl:141
+#: content/themes/default/templates/_header.tpl:113
+msgid "Privacy"
+msgstr "Privacy"
+
+#: content/themes/default/templates/admin.users.tpl:154
+msgid "Verified User"
+msgstr "Geverifieerde gebruiker"
+
+#: content/themes/default/templates/admin.users.tpl:178
+msgid "Email Activated"
+msgstr "E-mail geactiveerd"
+
+#: content/themes/default/templates/admin.users.tpl:190
+msgid "Password Rested"
+msgstr "Wachtwoord rustte"
+
+#: content/themes/default/templates/admin.users.tpl:202
+msgid "User Group"
+msgstr "Gebruikersgroep"
+
+#: content/themes/default/templates/admin.users.tpl:250
+#: content/themes/default/templates/settings.tpl:184
+msgid "Full Name"
+msgstr "Volledige Naam"
+
+#: content/themes/default/templates/admin.users.tpl:258
+msgid "Gender"
+msgstr "Geslacht"
+
+#: content/themes/default/templates/admin.users.tpl:262
+#: content/themes/default/templates/index.tpl:114
+#: content/themes/default/templates/settings.tpl:190
+#: content/themes/default/templates/signup.tpl:67
+#: content/themes/default/templates/signup_social.tpl:34
+msgid "Select Sex"
+msgstr "Selecteer Sex"
+
+#: content/themes/default/templates/admin.users.tpl:264
+#: content/themes/default/templates/index.tpl:115
+#: content/themes/default/templates/profile.tpl:326
+#: content/themes/default/templates/settings.tpl:191
+#: content/themes/default/templates/signup.tpl:68
+#: content/themes/default/templates/signup_social.tpl:35
+msgid "Male"
+msgstr "Mannelijk"
+
+#: content/themes/default/templates/admin.users.tpl:267
+#: content/themes/default/templates/index.tpl:116
+#: content/themes/default/templates/profile.tpl:329
+#: content/themes/default/templates/settings.tpl:192
+#: content/themes/default/templates/signup.tpl:69
+#: content/themes/default/templates/signup_social.tpl:36
+msgid "Female"
+msgstr "Vrouwelijk"
+
+#: content/themes/default/templates/admin.users.tpl:274
+#: content/themes/default/templates/settings.tpl:196
+msgid "Birthdate"
+msgstr "Geboortedatum"
+
+#: content/themes/default/templates/admin.users.tpl:280
+#: content/themes/default/templates/settings.tpl:200
+msgid "Select Month"
+msgstr "Kies Maand"
+
+#: content/themes/default/templates/admin.users.tpl:281
+#: content/themes/default/templates/settings.tpl:201
+msgid "Jan"
+msgstr "JAN"
+
+#: content/themes/default/templates/admin.users.tpl:282
+#: content/themes/default/templates/settings.tpl:202
+msgid "Feb"
+msgstr "FEB"
+
+#: content/themes/default/templates/admin.users.tpl:283
+#: content/themes/default/templates/settings.tpl:203
+msgid "Mar"
+msgstr "mrt"
+
+#: content/themes/default/templates/admin.users.tpl:284
+#: content/themes/default/templates/settings.tpl:204
+msgid "Apr"
+msgstr "apr"
+
+#: content/themes/default/templates/admin.users.tpl:285
+#: content/themes/default/templates/settings.tpl:205
+msgid "May"
+msgstr "mei"
+
+#: content/themes/default/templates/admin.users.tpl:286
+#: content/themes/default/templates/settings.tpl:206
+msgid "Jun"
+msgstr "JUN"
+
+#: content/themes/default/templates/admin.users.tpl:287
+#: content/themes/default/templates/settings.tpl:207
+msgid "Jul"
+msgstr "jul"
+
+#: content/themes/default/templates/admin.users.tpl:288
+#: content/themes/default/templates/settings.tpl:208
+msgid "Aug"
+msgstr "AUG"
+
+#: content/themes/default/templates/admin.users.tpl:289
+#: content/themes/default/templates/settings.tpl:209
+msgid "Sep"
+msgstr "SEP"
+
+#: content/themes/default/templates/admin.users.tpl:290
+#: content/themes/default/templates/settings.tpl:210
+msgid "Oct"
+msgstr "Okt"
+
+#: content/themes/default/templates/admin.users.tpl:291
+#: content/themes/default/templates/settings.tpl:211
+msgid "Nov"
+msgstr "NOV"
+
+#: content/themes/default/templates/admin.users.tpl:292
+#: content/themes/default/templates/settings.tpl:212
+msgid "Dec"
+msgstr "DEC"
+
+#: content/themes/default/templates/admin.users.tpl:297
+#: content/themes/default/templates/settings.tpl:217
+msgid "Select Day"
+msgstr "Kies dag"
+
+#: content/themes/default/templates/admin.users.tpl:305
+#: content/themes/default/templates/settings.tpl:225
+msgid "Select Year"
+msgstr "Kies Jaar"
+
+#: content/themes/default/templates/admin.users.tpl:317
+#: content/themes/default/templates/settings.tpl:251
+#: content/themes/default/templates/started.tpl:84
+msgid "Work Title"
+msgstr "Work Titel"
+
+#: content/themes/default/templates/admin.users.tpl:325
+#: content/themes/default/templates/settings.tpl:255
+#: content/themes/default/templates/started.tpl:88
+msgid "Work Place"
+msgstr "Werkplek"
+
+#: content/themes/default/templates/admin.users.tpl:334
+#: content/themes/default/templates/settings.tpl:277
+#: content/themes/default/templates/started.tpl:75
+msgid "Current City"
+msgstr "Huidige stad"
+
+#: content/themes/default/templates/admin.users.tpl:342
+#: content/themes/default/templates/settings.tpl:281
+#: content/themes/default/templates/started.tpl:79
+msgid "Hometown"
+msgstr "Hometown"
+
+#: content/themes/default/templates/admin.users.tpl:351
+#: content/themes/default/templates/settings.tpl:303
+#: content/themes/default/templates/started.tpl:93
+msgid "Major"
+msgstr "Meer"
+
+#: content/themes/default/templates/admin.users.tpl:359
+#: content/themes/default/templates/settings.tpl:307
+#: content/themes/default/templates/started.tpl:97
+msgid "School"
+msgstr "School"
+
+#: content/themes/default/templates/admin.users.tpl:367
+#: content/themes/default/templates/settings.tpl:311
+#: content/themes/default/templates/started.tpl:101
+msgid "Class"
+msgstr "Klasse"
+
+#: content/themes/default/templates/admin.users.tpl:424
+#: content/themes/default/templates/settings.tpl:99
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: content/themes/default/templates/admin.users.tpl:487
+#: content/themes/default/templates/ajax.chat.master.head.tpl:5
+#: content/themes/default/templates/settings.tpl:344
+#: content/themes/default/templates/_js_templates.tpl:466
+msgid "Offline"
+msgstr "Offline"
+
+#: content/themes/default/templates/admin.users.tpl:497
+#: content/themes/default/templates/admin.users.tpl:512
+#: content/themes/default/templates/admin.users.tpl:527
+#: content/themes/default/templates/admin.users.tpl:542
+#: content/themes/default/templates/admin.users.tpl:557
+#: content/themes/default/templates/admin.users.tpl:575
+#: content/themes/default/templates/admin.users.tpl:593
+#: content/themes/default/templates/settings.tpl:372
+#: content/themes/default/templates/settings.tpl:390
+#: content/themes/default/templates/settings.tpl:408
+#: content/themes/default/templates/settings.tpl:426
+#: content/themes/default/templates/settings.tpl:444
+#: content/themes/default/templates/settings.tpl:462
+#: content/themes/default/templates/settings.tpl:480
+#: content/themes/default/templates/settings.tpl:498
+msgid "Who can see your"
+msgstr "Wie kan zien uw"
+
+#: content/themes/default/templates/admin.users.tpl:497
+#: content/themes/default/templates/settings.tpl:372
+msgid "birthdate"
+msgstr "Geboortedatum"
+
+#: content/themes/default/templates/admin.users.tpl:502
+#: content/themes/default/templates/admin.users.tpl:517
+#: content/themes/default/templates/admin.users.tpl:532
+#: content/themes/default/templates/admin.users.tpl:547
+#: content/themes/default/templates/admin.users.tpl:562
+#: content/themes/default/templates/admin.users.tpl:580
+#: content/themes/default/templates/admin.users.tpl:598
+#: content/themes/default/templates/settings.tpl:359
+#: content/themes/default/templates/settings.tpl:377
+#: content/themes/default/templates/settings.tpl:395
+#: content/themes/default/templates/settings.tpl:413
+#: content/themes/default/templates/settings.tpl:431
+#: content/themes/default/templates/settings.tpl:449
+#: content/themes/default/templates/settings.tpl:467
+#: content/themes/default/templates/settings.tpl:485
+#: content/themes/default/templates/settings.tpl:503
+msgid "Everyone"
+msgstr "Leden"
+
+#: content/themes/default/templates/admin.users.tpl:512
+#: content/themes/default/templates/settings.tpl:390
+msgid "work info"
+msgstr "Postcode (werk)"
+
+#: content/themes/default/templates/admin.users.tpl:527
+#: content/themes/default/templates/settings.tpl:408
+msgid "location info"
+msgstr "locatie info"
+
+#: content/themes/default/templates/admin.users.tpl:542
+#: content/themes/default/templates/settings.tpl:426
+msgid "education info"
+msgstr "onderwijs info"
+
+#: content/themes/default/templates/admin.users.tpl:557
+#: content/themes/default/templates/settings.tpl:444
+msgid "friends"
+msgstr "vrienden"
+
+#: content/themes/default/templates/admin.users.tpl:568
+#: content/themes/default/templates/admin.users.tpl:586
+#: content/themes/default/templates/admin.users.tpl:604
+#: content/themes/default/templates/settings.tpl:365
+#: content/themes/default/templates/settings.tpl:383
+#: content/themes/default/templates/settings.tpl:401
+#: content/themes/default/templates/settings.tpl:419
+#: content/themes/default/templates/settings.tpl:437
+#: content/themes/default/templates/settings.tpl:455
+#: content/themes/default/templates/settings.tpl:473
+#: content/themes/default/templates/settings.tpl:491
+#: content/themes/default/templates/settings.tpl:509
+msgid "Just Me"
+msgstr "Alleen ik"
+
+#: content/themes/default/templates/admin.users.tpl:575
+#: content/themes/default/templates/settings.tpl:480
+msgid "liked pages"
+msgstr "hield van pagina 's"
+
+#: content/themes/default/templates/admin.users.tpl:593
+#: content/themes/default/templates/settings.tpl:498
+msgid "joined groups"
+msgstr "Clans waar ik lid van ben"
+
+#: content/themes/default/templates/admin.widgets.tpl:6
+msgid "Add New widget"
+msgstr "Voeg widget toe"
+
+#: content/themes/default/templates/admin.widgets.tpl:111
+msgid ""
+"When you add mutiple widgets at the samle location, they will be displayed "
+"randomly"
+msgstr ""
+"Wanneer u mutiple widgets op de assembler locatie toevoegt, worden ze "
+"willekeurig weergegeven"
+
+#: content/themes/default/templates/ajax.album.add_photos.tpl:9
+#: content/themes/default/templates/_album.tpl:11
+msgid "Add Photos"
+msgstr "Foto's toevoegen"
+
+#: content/themes/default/templates/ajax.album.add_photos.tpl:72
+#: content/themes/default/templates/ajax.album.add_photos.tpl:92
+#: content/themes/default/templates/_publisher.tpl:150
+#: content/themes/default/templates/__feeds_post.tpl:248
+msgid "Public"
+msgstr "Openbaar"
+
+#: content/themes/default/templates/ajax.album.add_photos.tpl:82
+#: content/themes/default/templates/_publisher.tpl:161
+#: content/themes/default/templates/__feeds_post.tpl:258
+msgid "Only Me"
+msgstr "Alleen ik"
+
+#: content/themes/default/templates/ajax.album.add_photos.tpl:97
+#: content/themes/default/templates/_publisher.tpl:169
+msgid "Post"
+msgstr "Bericht"
+
+#: content/themes/default/templates/ajax.album.edit_title.tpl:3
+#: content/themes/default/templates/_album.tpl:7
+msgid "Edit Album"
+msgstr "Album bewerken"
+
+#: content/themes/default/templates/ajax.album.edit_title.tpl:18
+#: content/themes/default/templates/group.tpl:425
+#: content/themes/default/templates/page.tpl:389
+msgid "Save"
+msgstr "Opslaan"
+
+#: content/themes/default/templates/ajax.album.edit_title.tpl:19
+#: content/themes/default/templates/_js_templates.tpl:63
+#: content/themes/default/templates/_js_templates.tpl:171
+#: content/themes/default/templates/_js_templates.tpl:199
+#: content/themes/default/templates/_js_templates.tpl:230
+#: content/themes/default/templates/_js_templates.tpl:336
+#: content/themes/default/templates/_js_templates.tpl:361
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: content/themes/default/templates/ajax.chat.conversation.messages.tpl:4
+msgid "Loading Older Messages"
+msgstr "Oudere berichten laden"
+
+#: content/themes/default/templates/ajax.chat.conversation.tpl:6
+#: content/themes/default/templates/messages.tpl:44
+#: content/themes/default/templates/messages.tpl:90
+#: content/themes/default/templates/messages.tpl:97
+#: content/themes/default/templates/_js_templates.tpl:477
+msgid "New Message"
+msgstr "Nieuw bericht"
+
+#: content/themes/default/templates/ajax.chat.conversation.tpl:10
+#: content/themes/default/templates/_js_translator.tpl:14
+msgid "Delete"
+msgstr "Verwijder"
+
+#: content/themes/default/templates/ajax.chat.master.sidebar.tpl:15
+msgid "Last Seen"
+msgstr "Laatst gezien"
+
+#: content/themes/default/templates/ajax.lightbox.tpl:54
+#: content/themes/default/templates/ajax.lightbox.tpl:60
+#: content/themes/default/templates/ajax.popover.tpl:111
+#: content/themes/default/templates/page.tpl:56
+#: content/themes/default/templates/page.tpl:106
+#: content/themes/default/templates/photo.tpl:81
+#: content/themes/default/templates/_js_translator.tpl:11
+#: content/themes/default/templates/__feeds_page.tpl:11
+#: content/themes/default/templates/__feeds_post.comment.tpl:48
+#: content/themes/default/templates/__feeds_post.tpl:435
+msgid "Unlike"
+msgstr "Vind ik niet meer leuk"
+
+#: content/themes/default/templates/ajax.lightbox.tpl:56
+#: content/themes/default/templates/ajax.lightbox.tpl:62
+#: content/themes/default/templates/ajax.popover.tpl:116
+#: content/themes/default/templates/page.tpl:61
+#: content/themes/default/templates/page.tpl:111
+#: content/themes/default/templates/photo.tpl:83
+#: content/themes/default/templates/_js_translator.tpl:10
+#: content/themes/default/templates/__feeds_page.tpl:16
+#: content/themes/default/templates/__feeds_post.comment.tpl:50
+#: content/themes/default/templates/__feeds_post.tpl:437
+msgid "Like"
+msgstr "Mooie post!"
+
+#: content/themes/default/templates/ajax.lightbox.tpl:65
+#: content/themes/default/templates/photo.tpl:85
+#: content/themes/default/templates/__feeds_post.tpl:439
+msgid "Comment"
+msgstr "Reactie"
+
+#: content/themes/default/templates/ajax.lightbox.tpl:78
+#: content/themes/default/templates/ajax.lightbox.tpl:92
+#: content/themes/default/templates/photo.tpl:98
+#: content/themes/default/templates/photo.tpl:112
+#: content/themes/default/templates/profile.tpl:349
+#: content/themes/default/templates/__feeds_post.tpl:474
+msgid "people"
+msgstr "mensen"
+
+#: content/themes/default/templates/ajax.lightbox.tpl:78
+#: content/themes/default/templates/ajax.lightbox.tpl:92
+#: content/themes/default/templates/photo.tpl:98
+#: content/themes/default/templates/photo.tpl:112
+#: content/themes/default/templates/__feeds_post.tpl:474
+msgid "like this"
+msgstr "Нравится"
+
+#: content/themes/default/templates/ajax.mutual_friends.tpl:3
+#: content/themes/default/templates/profile.tpl:196
+msgid "Mutual Friends"
+msgstr "%s Gemeenschappelijke vrienden"
+
+#: content/themes/default/templates/ajax.mutual_friends.tpl:15
+#: content/themes/default/templates/ajax.who_likes.tpl:15
+#: content/themes/default/templates/ajax.who_shares.tpl:15
+#: content/themes/default/templates/friend_requests.tpl:37
+#: content/themes/default/templates/friend_requests.tpl:68
+#: content/themes/default/templates/friend_requests.tpl:102
+#: content/themes/default/templates/group.tpl:230
+#: content/themes/default/templates/group.tpl:279
+#: content/themes/default/templates/group.tpl:367
+#: content/themes/default/templates/index.tpl:347
+#: content/themes/default/templates/index.tpl:385
+#: content/themes/default/templates/index.tpl:492
+#: content/themes/default/templates/notifications.tpl:27
+#: content/themes/default/templates/page.tpl:235
+#: content/themes/default/templates/page.tpl:284
+#: content/themes/default/templates/profile.tpl:515
+#: content/themes/default/templates/profile.tpl:564
+#: content/themes/default/templates/profile.tpl:613
+#: content/themes/default/templates/profile.tpl:716
+#: content/themes/default/templates/profile.tpl:780
+#: content/themes/default/templates/profile.tpl:816
+#: content/themes/default/templates/profile.tpl:859
+#: content/themes/default/templates/settings.tpl:710
+#: content/themes/default/templates/settings.tpl:736
+#: content/themes/default/templates/_album.tpl:48 includes/functions.php:734
+msgid "See More"
+msgstr "Kijk verder....."
+
+#: content/themes/default/templates/ajax.popover.tpl:16
+msgid "followers"
+msgstr "volgers"
+
+#: content/themes/default/templates/ajax.popover.tpl:25
+#: content/themes/default/templates/profile.tpl:365
+#: content/themes/default/templates/__feeds_user.tpl:52
+msgid "mutual friends"
+msgstr "wederzijdse vrienden"
+
+#: content/themes/default/templates/ajax.popover.tpl:34
+#: content/themes/default/templates/profile.tpl:279
+#: content/themes/default/templates/profile.tpl:291
+msgid "at"
+msgstr "bij"
+
+#: content/themes/default/templates/ajax.popover.tpl:44
+#: content/themes/default/templates/profile.tpl:316
+msgid "From"
+msgstr "Vanaf"
+
+#: content/themes/default/templates/ajax.popover.tpl:57
+#: content/themes/default/templates/profile.tpl:60
+#: content/themes/default/templates/profile.tpl:171
+#: content/themes/default/templates/profile.tpl:217
+#: content/themes/default/templates/_js_templates.tpl:64
+#: content/themes/default/templates/__feeds_user.tpl:9
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#: content/themes/default/templates/ajax.popover.tpl:58
+#: content/themes/default/templates/profile.tpl:61
+#: content/themes/default/templates/profile.tpl:172
+#: content/themes/default/templates/profile.tpl:218
+#: content/themes/default/templates/__feeds_user.tpl:10
+msgid "Delete Request"
+msgstr "Verwijder verzoek"
+
+#: content/themes/default/templates/ajax.popover.tpl:61
+#: content/themes/default/templates/profile.tpl:64
+#: content/themes/default/templates/profile.tpl:175
+#: content/themes/default/templates/profile.tpl:221
+#: content/themes/default/templates/_js_translator.tpl:3
+#: content/themes/default/templates/__feeds_user.tpl:19
+msgid "Friend Request Sent"
+msgstr "Vriendschapsverzoek verzonden"
+
+#: content/themes/default/templates/ajax.popover.tpl:65
+#: content/themes/default/templates/profile.tpl:68
+#: content/themes/default/templates/profile.tpl:179
+#: content/themes/default/templates/profile.tpl:225
+#: content/themes/default/templates/_js_translator.tpl:1
+#: content/themes/default/templates/__feeds_user.tpl:14
+msgid "Add Friend"
+msgstr "Volgen"
+
+#: content/themes/default/templates/ajax.popover.tpl:73
+#: content/themes/default/templates/profile.tpl:76
+#: content/themes/default/templates/profile.tpl:233
+#: content/themes/default/templates/_js_translator.tpl:4
+#: content/themes/default/templates/__feeds_user.tpl:36
+msgid "Following"
+msgstr "Volgen"
+
+#: content/themes/default/templates/ajax.popover.tpl:78
+#: content/themes/default/templates/profile.tpl:81
+#: content/themes/default/templates/profile.tpl:238
+#: content/themes/default/templates/_js_translator.tpl:5
+#: content/themes/default/templates/__feeds_user.tpl:30
+msgid "Follow"
+msgstr "Volgen"
+
+#: content/themes/default/templates/ajax.popover.tpl:81
+#: content/themes/default/templates/profile.tpl:84
+#: content/themes/default/templates/profile.tpl:241
+msgid "Message"
+msgstr "Bericht"
+
+#: content/themes/default/templates/ajax.popover.tpl:85
+#: content/themes/default/templates/group.tpl:63
+#: content/themes/default/templates/group.tpl:127
+#: content/themes/default/templates/page.tpl:66
+#: content/themes/default/templates/page.tpl:116
+#: content/themes/default/templates/profile.tpl:97
+#: content/themes/default/templates/profile.tpl:254
+msgid "Update Info"
+msgstr "Informatie bijwerken"
+
+#: content/themes/default/templates/ajax.posts.tpl:11
+#: content/themes/default/templates/_posts.tpl:56
+msgid "More Stories"
+msgstr "Meer blogs"
+
+#: content/themes/default/templates/ajax.posts.tpl:18
+#: content/themes/default/templates/_posts.tpl:65
+msgid "No posts to show"
+msgstr "Berichten te tonen"
+
+#: content/themes/default/templates/ajax.who_likes.tpl:3
+msgid "People Who Like This"
+msgstr "Bikers vinden dit leuk"
+
+#: content/themes/default/templates/ajax.who_shares.tpl:3
+msgid "People Who Shared This"
+msgstr "Mensen die deze deelde"
+
+#: content/themes/default/templates/directory.tpl:16
+msgid "All Posts"
+msgstr "Alle Berichten"
+
+#: content/themes/default/templates/directory.tpl:50
+msgid "No data available"
+msgstr "Er zijn geen data beschikbaar"
+
+#: content/themes/default/templates/directory.tpl:64
+#: content/themes/default/templates/friend_requests.tpl:95
+#: content/themes/default/templates/_header.friend_requests.tpl:39
+msgid "No people available"
+msgstr "Geen mensen beschikbaar"
+
+#: content/themes/default/templates/directory.tpl:78
+#: content/themes/default/templates/index.tpl:340
+msgid "No pages available"
+msgstr "Geen pagina's beschikbaar"
+
+#: content/themes/default/templates/directory.tpl:92
+#: content/themes/default/templates/index.tpl:378
+msgid "No groups available"
+msgstr "Geen groepen beschikbaar"
+
+#: content/themes/default/templates/directory.tpl:106
+#: content/themes/default/templates/index.tpl:485
+msgid "No games available"
+msgstr "Geen wedstrijden beschikbaar"
+
+#: content/themes/default/templates/friend_requests.tpl:15
+msgid "Respond to Your Friend Request"
+msgstr "Reageren op uw vriendschapsverzoek"
+
+#: content/themes/default/templates/friend_requests.tpl:18
+msgid "View Sent Requests"
+msgstr "Weergave verzonden aanvragen"
+
+#: content/themes/default/templates/friend_requests.tpl:30
+#: content/themes/default/templates/friend_requests.tpl:61
+#: content/themes/default/templates/_header.friend_requests.tpl:22
+msgid "No new requests"
+msgstr "Geen nieuwe aanvragen"
+
+#: content/themes/default/templates/friend_requests.tpl:49
+msgid "View Received Requests"
+msgstr "Ontvangen verzoeken bekijken"
+
+#: content/themes/default/templates/friend_requests.tpl:82
+#: content/themes/default/templates/_header.friend_requests.tpl:28
+msgid "People You May Know"
+msgstr "Mensen die u wellicht weet"
+
+#: content/themes/default/templates/group.tpl:58
+#: content/themes/default/templates/group.tpl:122
+#: content/themes/default/templates/_js_translator.tpl:13
+#: content/themes/default/templates/__feeds_group.tpl:16
+msgid "Join Group"
+msgstr "Deelnemen aan groep"
+
+#: content/themes/default/templates/group.tpl:67
+#: content/themes/default/templates/page.tpl:70
+#: content/themes/default/templates/page.tpl:120
+#: content/themes/default/templates/profile.tpl:90
+#: content/themes/default/templates/profile.tpl:247
+msgid "Report"
+msgstr "Rapportage"
+
+#: content/themes/default/templates/group.tpl:78
+#: content/themes/default/templates/page.tpl:81
+#: content/themes/default/templates/profile.tpl:109
+msgid "Timeline"
+msgstr "Tijdlijn"
+
+#: content/themes/default/templates/group.tpl:83
+#: content/themes/default/templates/group.tpl:93
+#: content/themes/default/templates/group.tpl:165
+#: content/themes/default/templates/group.tpl:203
+#: content/themes/default/templates/group.tpl:211
+#: content/themes/default/templates/group.tpl:252
+#: content/themes/default/templates/group.tpl:259
+#: content/themes/default/templates/group.tpl:309
+#: content/themes/default/templates/group.tpl:316
+#: content/themes/default/templates/index.tpl:228
+#: content/themes/default/templates/page.tpl:86
+#: content/themes/default/templates/page.tpl:170
+#: content/themes/default/templates/page.tpl:208
+#: content/themes/default/templates/page.tpl:216
+#: content/themes/default/templates/page.tpl:257
+#: content/themes/default/templates/page.tpl:264
+#: content/themes/default/templates/page.tpl:314
+#: content/themes/default/templates/page.tpl:321
+#: content/themes/default/templates/profile.tpl:124
+#: content/themes/default/templates/profile.tpl:137
+#: content/themes/default/templates/profile.tpl:388
+#: content/themes/default/templates/profile.tpl:537
+#: content/themes/default/templates/profile.tpl:545
+#: content/themes/default/templates/profile.tpl:586
+#: content/themes/default/templates/profile.tpl:593
+#: content/themes/default/templates/profile.tpl:643
+#: content/themes/default/templates/profile.tpl:650
+#: content/themes/default/templates/_posts.tpl:12
+#: content/themes/default/templates/_posts_filter.tpl:12
+msgid "Photos"
+msgstr "foto's"
+
+#: content/themes/default/templates/group.tpl:88
+#: content/themes/default/templates/profile.tpl:129
+#: content/themes/default/templates/_publisher.tpl:25
+msgid "More"
+msgstr "Meer"
+
+#: content/themes/default/templates/group.tpl:145
+msgid "members"
+msgstr "leden"
+
+#: content/themes/default/templates/group.tpl:215
+#: content/themes/default/templates/group.tpl:263
+#: content/themes/default/templates/group.tpl:320
+#: content/themes/default/templates/page.tpl:220
+#: content/themes/default/templates/page.tpl:268
+#: content/themes/default/templates/page.tpl:325
+#: content/themes/default/templates/profile.tpl:549
+#: content/themes/default/templates/profile.tpl:597
+#: content/themes/default/templates/profile.tpl:654
+msgid "Albums"
+msgstr "Albums"
+
+#: content/themes/default/templates/group.tpl:237
+#: content/themes/default/templates/page.tpl:242
+#: content/themes/default/templates/profile.tpl:571
+msgid "doesn't have photos"
+msgstr "hoeft niet leden"
+
+#: content/themes/default/templates/group.tpl:286
+#: content/themes/default/templates/page.tpl:291
+#: content/themes/default/templates/profile.tpl:620
+msgid "doesn't have albums"
+msgstr "heeft geen albums hebben"
+
+#: content/themes/default/templates/group.tpl:301
+#: content/themes/default/templates/page.tpl:306
+#: content/themes/default/templates/profile.tpl:635
+msgid "Back to Albums"
+msgstr "Terug naar Albums"
+
+#: content/themes/default/templates/group.tpl:374
+msgid "doesn't have members"
+msgstr "hoeft niet leden"
+
+#: content/themes/default/templates/group.tpl:387
+#: content/themes/default/templates/group.tpl:407
+msgid "Group Settings"
+msgstr "Instellingen van groep gebruiken."
+
+#: content/themes/default/templates/group.tpl:401
+msgid "Delete Group"
+msgstr "Groep verwijderen"
+
+#: content/themes/default/templates/index.tpl:13
+msgid "Share your memories, connect with others, make new friends"
+msgstr ""
+"Uw herinneringen delen, verbinden met anderen, nieuwe vrienden te maken"
+
+#: content/themes/default/templates/index.tpl:47
+#: content/themes/default/templates/signin.tpl:62
+msgid "Remember me"
+msgstr "Onthouden"
+
+#: content/themes/default/templates/index.tpl:49
+#: content/themes/default/templates/signin.tpl:73
+msgid "Forget your password?"
+msgstr "Vergeet Wachtwoord"
+
+#: content/themes/default/templates/index.tpl:61
+#: content/themes/default/templates/index.tpl:141
+#: content/themes/default/templates/signin.tpl:45
+#: content/themes/default/templates/signin.tpl:53
+#: content/themes/default/templates/signup.tpl:41
+msgid "or"
+msgstr "of"
+
+#: content/themes/default/templates/index.tpl:61
+#: content/themes/default/templates/index.tpl:141
+msgid "login with"
+msgstr "Login met"
+
+#: content/themes/default/templates/index.tpl:93
+msgid "Not registered?"
+msgstr "Nog geen account?"
+
+#: content/themes/default/templates/index.tpl:93
+msgid "Create an account"
+msgstr "Maak een account aan"
+
+#: content/themes/default/templates/index.tpl:96
+msgid "New to"
+msgstr "Nieuw voor"
+
+#: content/themes/default/templates/index.tpl:96
+#: content/themes/default/templates/signup.tpl:8
+msgid "Sign up"
+msgstr "Creëer account"
+
+#: content/themes/default/templates/index.tpl:112
+#: content/themes/default/templates/settings.tpl:188
+#: content/themes/default/templates/signup.tpl:65
+#: content/themes/default/templates/signup_social.tpl:32
+msgid "I am"
+msgstr "Ik ben"
+
+#: content/themes/default/templates/index.tpl:128
+#: content/themes/default/templates/signup.tpl:81
+#: content/themes/default/templates/signup_social.tpl:40
+msgid "By clicking Sign Up, you agree to our"
+msgstr "Door te klikken op Sign Up, u akkoord gaat met onze"
+
+#: content/themes/default/templates/index.tpl:128
+#: content/themes/default/templates/signup.tpl:81
+#: content/themes/default/templates/signup_social.tpl:40
+msgid "Terms"
+msgstr "Voorwaarden"
+
+#: content/themes/default/templates/index.tpl:173
+msgid "Have account?"
+msgstr "Heb je al account?"
+
+#: content/themes/default/templates/index.tpl:173
+msgid "Login Now"
+msgstr "Nu Inloggen"
+
+#: content/themes/default/templates/index.tpl:218
+msgid "favorites"
+msgstr "Favorieten"
+
+#: content/themes/default/templates/index.tpl:222
+#: content/themes/default/templates/_directory.tpl:12
+msgid "News Feed"
+msgstr "Nieuws Feed"
+
+#: content/themes/default/templates/index.tpl:234
+msgid "Saved"
+msgstr "Opgeslagen"
+
+#: content/themes/default/templates/index.tpl:246
+msgid "pages"
+msgstr "Pagina's"
+
+#: content/themes/default/templates/index.tpl:272
+msgid "groups"
+msgstr "﻿Groepen"
+
+#: content/themes/default/templates/index.tpl:327
+msgid "Your Pages"
+msgstr "Uw pagina 's"
+
+#: content/themes/default/templates/index.tpl:365
+msgid "Your Groups"
+msgstr "Uw groepen"
+
+#: content/themes/default/templates/index.tpl:425
+#: content/themes/default/templates/index.tpl:458
+msgid "Create"
+msgstr "Aanmaken"
+
+#: content/themes/default/templates/index.tpl:516
+#: content/themes/default/templates/_header.friend_requests.tpl:45
+#: content/themes/default/templates/_header.messages.tpl:28
+#: content/themes/default/templates/_header.notifications.tpl:27
+msgid "See All"
+msgstr "TOON ALLES"
+
+#: content/themes/default/templates/index.tpl:518
+msgid "People you may know"
+msgstr "Mensen die u wellicht weet"
+
+#: content/themes/default/templates/index.tpl:535
+msgid "Suggested Pages"
+msgstr "Aanbevolen pagina 's"
+
+#: content/themes/default/templates/index.tpl:552
+msgid "Suggested Groups"
+msgstr "Voorgestelde groepen"
+
+#: content/themes/default/templates/messages.tpl:12
+msgid "Inbox"
+msgstr "Postvak in"
+
+#: content/themes/default/templates/messages.tpl:26
+msgid "Load Older Threads"
+msgstr "Laden van oudere Threads"
+
+#: content/themes/default/templates/messages.tpl:50
+#: content/themes/default/templates/_js_templates.tpl:488
+msgid "To"
+msgstr "aan"
+
+#: content/themes/default/templates/messages.tpl:93
+msgid "No Selection"
+msgstr "Geen selectie"
+
+#: content/themes/default/templates/messages.tpl:96
+msgid "No Conversation Selected"
+msgstr "Geen gesprek geselecteerd"
+
+#: content/themes/default/templates/notifications.tpl:14
+msgid "Your Notifications"
+msgstr "Uw meldingen"
+
+#: content/themes/default/templates/page.tpl:139
+msgid "people like this"
+msgstr "Bikers vinden dit leuk"
+
+#: content/themes/default/templates/page.tpl:343
+#: content/themes/default/templates/page.tpl:363
+msgid "Page Settings"
+msgstr "Pagina Instellingen"
+
+#: content/themes/default/templates/page.tpl:357
+msgid "Delete Page"
+msgstr "Laag verwijderen"
+
+#: content/themes/default/templates/profile.tpl:91
+#: content/themes/default/templates/profile.tpl:248
+msgid "Block"
+msgstr "Toggel blok inhoud."
+
+#: content/themes/default/templates/profile.tpl:117
+msgid "Mutual"
+msgstr "Mutual"
+
+#: content/themes/default/templates/profile.tpl:161
+msgid "Do you know"
+msgstr "Hebt u enig idee?"
+
+#: content/themes/default/templates/profile.tpl:165
+msgid "To see what"
+msgstr "Om te zien wat"
+
+#: content/themes/default/templates/profile.tpl:165
+msgid "shares with friends"
+msgstr "aandelen met vrienden"
+
+#: content/themes/default/templates/profile.tpl:167
+msgid "send a friend request"
+msgstr "een vriend verzenden"
+
+#: content/themes/default/templates/profile.tpl:269
+msgid "About"
+msgstr "Over"
+
+#: content/themes/default/templates/profile.tpl:290
+msgid "Studied"
+msgstr "Studie"
+
+#: content/themes/default/templates/profile.tpl:305
+msgid "Lives in"
+msgstr "Woont in"
+
+#: content/themes/default/templates/profile.tpl:348
+msgid "Followed by"
+msgstr "Gevolgd door"
+
+#: content/themes/default/templates/profile.tpl:522
+msgid "doesn't have friends"
+msgstr "hoeft niet vrienden"
+
+#: content/themes/default/templates/profile.tpl:723
+msgid "doesn't have followers"
+msgstr "hoeft niet volgelingen"
+
+#: content/themes/default/templates/profile.tpl:787
+msgid "doesn't have followings"
+msgstr "achterban hebben niet"
+
+#: content/themes/default/templates/profile.tpl:823
+#: content/themes/default/templates/profile.tpl:828
+msgid "No pages to show"
+msgstr "Geen pagina's om te laten zien"
+
+#: content/themes/default/templates/profile.tpl:866
+#: content/themes/default/templates/profile.tpl:871
+msgid "No groups to show"
+msgstr "Geen groepen om te laten zien"
+
+#: content/themes/default/templates/reset.tpl:6
+msgid "Reset Password"
+msgstr "Wachtwoord herstellen"
+
+#: content/themes/default/templates/reset.tpl:16
+msgid ""
+"Enter the email address you signed up with and we'll email you a reset link"
+msgstr ""
+"Voer het e-mailadres u omhoog met ondertekende en wij sturen u een e-mail "
+"een link opnieuw instellen"
+
+#: content/themes/default/templates/reset.tpl:26
+msgid "Email me a link"
+msgstr "E-mail mij een link"
+
+#: content/themes/default/templates/search.tpl:40
+#: content/themes/default/templates/_header.search.tpl:5
+msgid "Search Results"
+msgstr "Zoekresultaten"
+
+#: content/themes/default/templates/search.tpl:80
+#: content/themes/default/templates/search.tpl:94
+#: content/themes/default/templates/search.tpl:108
+#: content/themes/default/templates/search.tpl:122
+msgid "No results to show"
+msgstr "Geen resultaten te tonen"
+
+#: content/themes/default/templates/settings.tpl:120
+msgid "Current"
+msgstr "Huidig"
+
+#: content/themes/default/templates/settings.tpl:124
+msgid "New"
+msgstr "Nieuw"
+
+#: content/themes/default/templates/settings.tpl:128
+msgid "Re-type new"
+msgstr "Typ opnieuw nieuwe"
+
+#: content/themes/default/templates/settings.tpl:158
+msgid "Basic"
+msgstr "Standaard"
+
+#: content/themes/default/templates/settings.tpl:163
+msgid "Work"
+msgstr "Project"
+
+#: content/themes/default/templates/settings.tpl:168
+msgid "Location"
+msgstr "Locatie"
+
+#: content/themes/default/templates/settings.tpl:173
+msgid "Education"
+msgstr "Onderwijs"
+
+#: content/themes/default/templates/settings.tpl:354
+msgid "Who can post on your wall"
+msgstr "Wie kunnen plaatsen op uw muur"
+
+#: content/themes/default/templates/settings.tpl:462
+#: content/themes/default/templates/__feeds_album.tpl:8
+#: content/themes/default/templates/__feeds_post.tpl:131
+#: content/themes/default/templates/__feeds_post.tpl:163
+#: content/themes/default/templates/__feeds_post_shared.tpl:35
+msgid "photos"
+msgstr "foto's"
+
+#: content/themes/default/templates/settings.tpl:548
+#: content/themes/default/templates/settings.tpl:576
+#: content/themes/default/templates/settings.tpl:604
+#: content/themes/default/templates/settings.tpl:632
+#: content/themes/default/templates/settings.tpl:660
+msgid "Disconnect"
+msgstr "Afsluiten"
+
+#: content/themes/default/templates/settings.tpl:550
+#: content/themes/default/templates/settings.tpl:578
+#: content/themes/default/templates/settings.tpl:606
+#: content/themes/default/templates/settings.tpl:634
+#: content/themes/default/templates/settings.tpl:662
+msgid "Connect"
+msgstr "Verbinden"
+
+#: content/themes/default/templates/settings.tpl:555
+#: content/themes/default/templates/settings.tpl:558
+#: content/themes/default/templates/settings.tpl:560
+#: content/themes/default/templates/signin.tpl:19
+#: content/themes/default/templates/signup.tpl:15
+msgid "Facebook"
+msgstr "Cherry - Facebook Like Box Widget"
+
+#: content/themes/default/templates/settings.tpl:558
+#: content/themes/default/templates/settings.tpl:586
+#: content/themes/default/templates/settings.tpl:614
+#: content/themes/default/templates/settings.tpl:642
+#: content/themes/default/templates/settings.tpl:670
+msgid "Your account is connected to"
+msgstr "Uw account is verbonden met"
+
+#: content/themes/default/templates/settings.tpl:560
+#: content/themes/default/templates/settings.tpl:588
+#: content/themes/default/templates/settings.tpl:616
+#: content/themes/default/templates/settings.tpl:644
+#: content/themes/default/templates/settings.tpl:672
+msgid "Connect your account to"
+msgstr "Verbinding maken met uw account"
+
+#: content/themes/default/templates/settings.tpl:583
+#: content/themes/default/templates/settings.tpl:586
+#: content/themes/default/templates/settings.tpl:588
+#: content/themes/default/templates/signin.tpl:24
+#: content/themes/default/templates/signup.tpl:20
+msgid "Twitter"
+msgstr "Twitter"
+
+#: content/themes/default/templates/settings.tpl:611
+#: content/themes/default/templates/settings.tpl:614
+#: content/themes/default/templates/settings.tpl:616
+#: content/themes/default/templates/signin.tpl:29
+#: content/themes/default/templates/signup.tpl:25
+msgid "Google"
+msgstr "Google"
+
+#: content/themes/default/templates/settings.tpl:639
+#: content/themes/default/templates/settings.tpl:642
+#: content/themes/default/templates/settings.tpl:644
+#: content/themes/default/templates/signin.tpl:34
+#: content/themes/default/templates/signup.tpl:30
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: content/themes/default/templates/settings.tpl:667
+#: content/themes/default/templates/settings.tpl:670
+#: content/themes/default/templates/settings.tpl:672
+#: content/themes/default/templates/signin.tpl:39
+#: content/themes/default/templates/signup.tpl:35
+msgid "Vkontakte"
+msgstr "Vkontakte"
+
+#: content/themes/default/templates/settings.tpl:686
+#: content/themes/default/templates/_js_templates.tpl:425
+msgid "Manage Blocking"
+msgstr "Beheren blokkeren"
+
+#: content/themes/default/templates/settings.tpl:691
+msgid ""
+"Once you block someone, that person can no longer see things you post on "
+"your timeline"
+msgstr ""
+"Zodra u iemand blokkeert, kan die persoon niet langer zien dingen die je op "
+"uw tijdlijn post"
+
+#: content/themes/default/templates/settings.tpl:692
+msgid "Note: Does not include apps, games or groups you both participate in"
+msgstr ""
+"Opmerking: Bevat geen apps, games of groepen die u beiden deelnemen aan"
+
+#: content/themes/default/templates/settings.tpl:703
+msgid "No blocked users"
+msgstr "Geblokkeerde gebruikers"
+
+#: content/themes/default/templates/settings.tpl:725
+msgid "Once you delete your account you will no longer can access it again"
+msgstr "Zodra u uw account verwijderen zal niet langer kunt u het opnieuw"
+
+#: content/themes/default/templates/settings.tpl:726
+msgid "Note: All your data will be deleted"
+msgstr "Opmerking: Al uw gegevens zal worden verwijderd"
+
+#: content/themes/default/templates/settings.tpl:730
+msgid "Delete My Account"
+msgstr "Verwijder mijn account"
+
+#: content/themes/default/templates/signin.tpl:19
+#: content/themes/default/templates/signin.tpl:24
+#: content/themes/default/templates/signin.tpl:29
+#: content/themes/default/templates/signin.tpl:34
+#: content/themes/default/templates/signin.tpl:39
+#: content/themes/default/templates/signup.tpl:15
+#: content/themes/default/templates/signup.tpl:20
+#: content/themes/default/templates/signup.tpl:25
+#: content/themes/default/templates/signup.tpl:30
+#: content/themes/default/templates/signup.tpl:35
+msgid "Login with"
+msgstr "Inloggen met"
+
+#: content/themes/default/templates/signup.tpl:49
+#: content/themes/default/templates/signup_social.tpl:16
+msgid "Full name"
+msgstr "Volledige naam"
+
+#: content/themes/default/templates/signup_social.tpl:8
+#: content/themes/default/templates/started.tpl:39
+msgid "Welcome"
+msgstr "Welkom"
+
+#: content/themes/default/templates/started.tpl:11
+msgid "BUILD"
+msgstr "Build"
+
+#: content/themes/default/templates/started.tpl:11
+msgid "YOUR PROFILE"
+msgstr "Uw profiel"
+
+#: content/themes/default/templates/started.tpl:12
+msgid "This information will let us know more about you"
+msgstr "Deze informatie zal laten we meer weten over u"
+
+#: content/themes/default/templates/started.tpl:19
+msgid "Step 1"
+msgstr "Stap 1"
+
+#: content/themes/default/templates/started.tpl:20
+msgid "Upload your photo"
+msgstr "Upload hier je foto"
+
+#: content/themes/default/templates/started.tpl:25
+msgid "Step 2"
+msgstr "Stap 2"
+
+#: content/themes/default/templates/started.tpl:26
+#: content/themes/default/templates/started.tpl:69
+msgid "Update your info"
+msgstr "Uw info bijwerken"
+
+#: content/themes/default/templates/started.tpl:31
+msgid "Step 3"
+msgstr "Stap 3"
+
+#: content/themes/default/templates/started.tpl:32
+#: content/themes/default/templates/started.tpl:126
+msgid "Add Friends"
+msgstr "Vrienden toevoegen"
+
+#: content/themes/default/templates/started.tpl:40
+msgid "Let's start with your photo"
+msgstr "Laten we beginnen met je foto"
+
+#: content/themes/default/templates/started.tpl:62
+#: content/themes/default/templates/started.tpl:117
+msgid "Next Step"
+msgstr "Volgende stap"
+
+#: content/themes/default/templates/started.tpl:70
+msgid "Share your information with our community"
+msgstr "Uw gegevens delen met onze Gemeenschap"
+
+#: content/themes/default/templates/started.tpl:127
+msgid "Get latest activities from our popular users"
+msgstr "Meest recente activiteiten van onze populaire gebruikers krijgen"
+
+#: content/themes/default/templates/started.tpl:140
+msgid "Finish"
+msgstr "Einde"
+
+#: content/themes/default/templates/_ads.tpl:5
+msgid "Sponsored"
+msgstr "Sponsor"
+
+#: content/themes/default/templates/_album.tpl:16
+msgid "Delete Album"
+msgstr "Album verwijderen"
+
+#: content/themes/default/templates/_album.tpl:29
+#: content/themes/default/templates/_album.tpl:31
+#: content/themes/default/templates/_album.tpl:33
+msgid "Shared with"
+msgstr "Gedeeld met"
+
+#: content/themes/default/templates/_album.tpl:55
+msgid "This album is empty"
+msgstr "Dit album is leeg."
+
+#: content/themes/default/templates/_directory.tpl:3
+msgid "Be Connected"
+msgstr "Verbonden zij n"
+
+#: content/themes/default/templates/_directory.tpl:5
+msgid "Discover new people, create new connections and make new friends"
+msgstr ""
+"Ontdek nieuwe mensen, nieuwe verbindingen te maken en nieuwe vrienden maken"
+
+#: content/themes/default/templates/_directory.tpl:14
+msgid "See what everyone’s up to and what’s on their minds"
+msgstr "Zien wat iedereen is aan en wat er op hun hoofd"
+
+#: content/themes/default/templates/_directory.tpl:23
+msgid "Help friends know you better and show them what you have in common"
+msgstr ""
+"Help vrienden weten dat je beter en laten zien wat je met elkaar gemeen"
+
+#: content/themes/default/templates/_directory.tpl:32
+msgid "Never miss a thing out! Keep in touch with your fans and customers"
+msgstr "Mis nooit meer een ding uit! Blijf in contact met je fans en klanten"
+
+#: content/themes/default/templates/_directory.tpl:41
+msgid "Communicate and collaborate with the people who share your interests"
+msgstr ""
+"Te communiceren en samen te werken met de mensen die uw interesses delen"
+
+#: content/themes/default/templates/_directory.tpl:50
+msgid "Playing games always fun, Play with the people who share your interests"
+msgstr ""
+"Het spelen van games altijd leuk, spelen met de mensen die uw interesses "
+"delen"
+
+#: content/themes/default/templates/_directory.tpl:59
+msgid "Stay ahead of the world. Keep an eye on what's trending around"
+msgstr "Blijf de hele wereld. Houd in de gaten wat er trending rond"
+
+#: content/themes/default/templates/_header.messages.tpl:11
+msgid "Send a New Message"
+msgstr "Verzend een nieuw bericht"
+
+#: content/themes/default/templates/_header.messages.tpl:23
+msgid "No messages"
+msgstr "Geen berichten"
+
+#: content/themes/default/templates/_header.notifications.tpl:22
+msgid "No notifications"
+msgstr "Geen notificaties"
+
+#: content/themes/default/templates/_header.search.tpl:10
+msgid "See All Results"
+msgstr "Alle resultaten weergeven"
+
+#: content/themes/default/templates/_header.tpl:16
+msgid "Please go to"
+msgstr "Ga naar"
+
+#: content/themes/default/templates/_header.tpl:16
+msgid "to complete the sign-up process"
+msgstr "om het aanmelden proces te voltooien"
+
+#: content/themes/default/templates/_header.tpl:20
+msgid "Resend Activation Email"
+msgstr "Stuur activeringsmail nogmaals"
+
+#: content/themes/default/templates/_header.tpl:24
+msgid "Change Email"
+msgstr "Email wijzigen"
+
+#: content/themes/default/templates/_header.tpl:38
+msgid "The system has been shuttd down"
+msgstr "Het systeem is shuttd vastgesteld"
+
+#: content/themes/default/templates/_header.tpl:39
+msgid "Turn it on from"
+msgstr "Het inschakelen van"
+
+#: content/themes/default/templates/_header.tpl:143
+msgid "Log Out"
+msgstr "Uitloggen"
+
+#: content/themes/default/templates/_header.tpl:151
+msgid "Join"
+msgstr "Registreer"
+
+#: content/themes/default/templates/_header.tpl:159
+msgid "Register"
+msgstr "Registreren"
+
+#: content/themes/default/templates/_js_templates.tpl:15
+msgid "Not Logged In"
+msgstr "Niet ingelogd"
+
+#: content/themes/default/templates/_js_templates.tpl:18
+msgid "Please log in to continue"
+msgstr "Welkom! Meld jezelf aan om door te gaan naar het Portaal."
+
+#: content/themes/default/templates/_js_templates.tpl:73
+msgid "Select Your Language"
+msgstr "Taal selecteren"
+
+#: content/themes/default/templates/_js_templates.tpl:93
+msgid "Search for"
+msgstr "Zoeken naar"
+
+#: content/themes/default/templates/_js_templates.tpl:145
+msgid "Check Your Email"
+msgstr "Sortie uw elektronische post"
+
+#: content/themes/default/templates/_js_templates.tpl:150
+msgid "Check your email"
+msgstr "Sortie uw elektronische post"
+
+#: content/themes/default/templates/_js_templates.tpl:150
+msgid ""
+"We sent you an email with a six-digit confirmation code. Enter it below to "
+"continue to reset your password"
+msgstr ""
+"We u een e-mail met een 6-cijferige bevestigingscode gestuurd. Voer het "
+"hieronder om door te gaan om uw wachtwoord te resetten"
+
+#: content/themes/default/templates/_js_templates.tpl:163
+msgid "We sent your code to"
+msgstr "Wij verzonden uw code"
+
+#: content/themes/default/templates/_js_templates.tpl:170
+#: content/themes/default/templates/_js_templates.tpl:198
+#: content/themes/default/templates/_js_templates.tpl:229
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: content/themes/default/templates/_js_templates.tpl:179
+msgid "Change Your Password!"
+msgstr "Wijzig jouw paswoord"
+
+#: content/themes/default/templates/_js_templates.tpl:184
+msgid "New Password"
+msgstr "Nieuw wachtwoord"
+
+#: content/themes/default/templates/_js_templates.tpl:188
+msgid "Confirm Password"
+msgstr "Bevestig Wachtwoord"
+
+#: content/themes/default/templates/_js_templates.tpl:211
+msgid "Change Email Address"
+msgstr "Uw e-mailadres wijzigen"
+
+#: content/themes/default/templates/_js_templates.tpl:216
+msgid "Current Email"
+msgstr "Huidige E-mail"
+
+#: content/themes/default/templates/_js_templates.tpl:221
+msgid "New Email"
+msgstr "Nieuw e-mailadres"
+
+#: content/themes/default/templates/_js_templates.tpl:370
+msgid "Post Hidden"
+msgstr "Post verborgen"
+
+#: content/themes/default/templates/_js_templates.tpl:371
+msgid "This post will no longer appear to you"
+msgstr "Dit bericht verschijnt niet langer aan u"
+
+#: content/themes/default/templates/_js_templates.tpl:371
+#: content/themes/default/templates/_js_templates.tpl:377
+#: content/themes/default/templates/_js_templates.tpl:384
+#: content/themes/default/templates/_js_templates.tpl:391
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+#: content/themes/default/templates/_js_templates.tpl:377
+msgid "You won't see posts from"
+msgstr "Ziet u geen berichten van"
+
+#: content/themes/default/templates/_js_templates.tpl:377
+msgid "in News Feed anymore"
+msgstr "in het nieuwsfeed meer"
+
+#: content/themes/default/templates/_js_templates.tpl:383
+#: content/themes/default/templates/_js_templates.tpl:390
+msgid "Thanks for Your Help"
+msgstr "Bedankt voor je hulp!"
+
+#: content/themes/default/templates/_js_templates.tpl:384
+#: content/themes/default/templates/_js_templates.tpl:391
+msgid "Your feedback helps us keep site clear of spam"
+msgstr "Uw feedback helpt ons houden duidelijk van spam site"
+
+#: content/themes/default/templates/_js_translator.tpl:6
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: content/themes/default/templates/_js_translator.tpl:8
+msgid "Success"
+msgstr "Succes"
+
+#: content/themes/default/templates/_js_translator.tpl:9
+msgid "Loading"
+msgstr "Aan het laden"
+
+#: content/themes/default/templates/_js_translator.tpl:15
+msgid "Delete Cover"
+msgstr "Hoes verwijderen"
+
+#: content/themes/default/templates/_js_translator.tpl:16
+msgid "Delete Picture"
+msgstr "Afbeelding verwijderen"
+
+#: content/themes/default/templates/_js_translator.tpl:17
+#: content/themes/default/templates/__feeds_post.tpl:67
+msgid "Delete Post"
+msgstr "Advertentie verwijderen"
+
+#: content/themes/default/templates/_js_translator.tpl:18
+#: content/themes/default/templates/__feeds_post.comment.tpl:29
+msgid "Delete Comment"
+msgstr "Verwijder reactie"
+
+#: content/themes/default/templates/_js_translator.tpl:19
+msgid "Delete Conversation"
+msgstr "Verwijder Gesprek"
+
+#: content/themes/default/templates/_js_translator.tpl:20
+msgid "Share Post"
+msgstr "Deel dit bericht"
+
+#: content/themes/default/templates/_js_translator.tpl:21
+msgid "Report User"
+msgstr "Verslag gebruiker"
+
+#: content/themes/default/templates/_js_translator.tpl:22
+msgid "Block User"
+msgstr "AIM-gebruikers blokkeren"
+
+#: content/themes/default/templates/_js_translator.tpl:23
+msgid "Unblock User"
+msgstr "Gebruiker deblokkeren"
+
+#: content/themes/default/templates/_js_translator.tpl:24
+msgid "Are you sure you want to delete this?"
+msgstr "Weet je zeker dat je het wilt verwijderen?"
+
+#: content/themes/default/templates/_js_translator.tpl:25
+msgid "Are you sure you want to remove your cover photo?"
+msgstr "Weet u zeker dat u wilt verwijderen van uw hoes is een foto?"
+
+#: content/themes/default/templates/_js_translator.tpl:26
+msgid "Are you sure you want to remove your profile picture?"
+msgstr "Weet u zeker dat u wilt verwijderen van uw profielfoto?"
+
+#: content/themes/default/templates/_js_translator.tpl:27
+msgid "Are you sure you want to delete this post?"
+msgstr "Ben je er zeker van dat je dit bericht wilt verwijderen?"
+
+#: content/themes/default/templates/_js_translator.tpl:28
+msgid "Are you sure you want to share this post?"
+msgstr "Weet u zeker dat u wilt delen van dit bericht?"
+
+#: content/themes/default/templates/_js_translator.tpl:29
+msgid "Are you sure you want to delete this comment?"
+msgstr "Ben je zeker dat je deze reactie wil verwijderen?"
+
+#: content/themes/default/templates/_js_translator.tpl:30
+msgid "Are you sure you want to delete this conversation?"
+msgstr "Weet je zeker dat je het wilt verwijderen?"
+
+#: content/themes/default/templates/_js_translator.tpl:31
+msgid "Are you sure you want to report this user?"
+msgstr "Weet u zeker dat u wilt melden van deze gebruiker?"
+
+#: content/themes/default/templates/_js_translator.tpl:32
+msgid "Are you sure you want to block this user?"
+msgstr "Weet u zeker dat u wilt blokkeren deze gebruiker?"
+
+#: content/themes/default/templates/_js_translator.tpl:33
+msgid "Are you sure you want to unblock this user?"
+msgstr "Weet u zeker dat u wilt deblokkeren van deze gebruiker?"
+
+#: content/themes/default/templates/_js_translator.tpl:34
+msgid "There is something that went wrong!"
+msgstr "Er is één of ander ding ging worng!"
+
+#: content/themes/default/templates/_js_translator.tpl:35
+msgid "There is no more data to show"
+msgstr "Er is geen meer informatie te tonen"
+
+#: content/themes/default/templates/_js_translator.tpl:36
+msgid "This has been shared to your Timeline"
+msgstr "Dit is gedeeld aan uw tijdlijn"
+
+#: content/themes/default/templates/_js_translator.tpl:37
+msgid "Search for people, pages and #hashtags"
+msgstr "Zoeken naar personen, pagina's en #hashtags"
+
+#: content/themes/default/templates/_js_translator.tpl:38
+msgid "What is on your mind? #Hashtag.. @Mention.. Link.."
+msgstr "Wat is uw mening? #Hashtag... «««@Mention... Koppeling..."
+
+#: content/themes/default/templates/_js_translator.tpl:39
+msgid "Write a comment"
+msgstr "Schrijf een reactie"
+
+#: content/themes/default/templates/_js_translator.tpl:40
+msgid "Shared with: Public"
+msgstr "Gedeeld met: openbaar"
+
+#: content/themes/default/templates/_js_translator.tpl:41
+msgid "Shared with: Friends"
+msgstr "Gedeeld met: vrienden"
+
+#: content/themes/default/templates/_js_translator.tpl:42
+msgid "Shared with: Only Me"
+msgstr "Alleen ik"
+
+#: content/themes/default/templates/_js_translator.tpl:43
+msgid "Title of your page"
+msgstr "U moet een titel voor uw pagina invoeren"
+
+#: content/themes/default/templates/_js_translator.tpl:44
+msgid "Username, e.g. YouTubeOfficial"
+msgstr "Gebruikersnaam, bijvoorbeeld YouTubeOfficial"
+
+#: content/themes/default/templates/_js_translator.tpl:45
+msgid "Write about your page..."
+msgstr "U moet een titel voor uw pagina invoeren"
+
+#: content/themes/default/templates/_js_translator.tpl:46
+msgid "Title of your group"
+msgstr "U moet een titel invoeren voor uw groep"
+
+#: content/themes/default/templates/_js_translator.tpl:47
+msgid "Username, e.g. DevelopersGroup"
+msgstr "Sorry, dat het ziet eruit als deze gebruikersnaam"
+
+#: content/themes/default/templates/_js_translator.tpl:48
+msgid "Write about your group..."
+msgstr "U moet een titel invoeren voor uw groep"
+
+#: content/themes/default/templates/_js_translator.tpl:49
+msgid "Write a message"
+msgstr "Schrijf bericht"
+
+#: content/themes/default/templates/_js_translator.tpl:50
+msgid "Verified profile"
+msgstr "Geverifieerd"
+
+#: content/themes/default/templates/_pinned_post.tpl:3
+msgid "Pinned Post"
+msgstr "speldde Bericht"
+
+#: content/themes/default/templates/_posts.tpl:3
+#: content/themes/default/templates/_posts_filter.tpl:2
+msgid "Recent Updates"
+msgstr "Actueel"
+
+#: content/themes/default/templates/_posts.tpl:7
+#: content/themes/default/templates/_posts.tpl:10
+#: content/themes/default/templates/_posts_filter.tpl:7
+#: content/themes/default/templates/_posts_filter.tpl:10
+msgid "All"
+msgstr "Alles"
+
+#: content/themes/default/templates/_posts.tpl:11
+#: content/themes/default/templates/_posts_filter.tpl:11
+msgid "Text"
+msgstr "Tekst"
+
+#: content/themes/default/templates/_posts.tpl:13
+#: content/themes/default/templates/_posts_filter.tpl:13
+msgid "Videos"
+msgstr "Video’s"
+
+#: content/themes/default/templates/_posts.tpl:14
+#: content/themes/default/templates/_posts_filter.tpl:14
+msgid "Audios"
+msgstr "Audio's"
+
+#: content/themes/default/templates/_posts.tpl:15
+#: content/themes/default/templates/_posts_filter.tpl:15
+msgid "Files"
+msgstr "Bestanden"
+
+#: content/themes/default/templates/_posts.tpl:16
+msgid "Maps"
+msgstr "Kaart"
+
+#: content/themes/default/templates/_publisher.tpl:13
+msgid "Write Post"
+msgstr "Schrijf bericht"
+
+#: content/themes/default/templates/_publisher.tpl:19
+#: content/themes/default/templates/_publisher.tpl:31
+msgid "Create Album"
+msgstr "Nieuw album aanmaken"
+
+#: content/themes/default/templates/_publisher.tpl:38
+msgid "Add Video"
+msgstr "Video:"
+
+#: content/themes/default/templates/_publisher.tpl:45
+msgid "Add Audio"
+msgstr "Voeg Audio Bestand toe"
+
+#: content/themes/default/templates/_publisher.tpl:52
+msgid "Add File"
+msgstr "Voeg bestand toe"
+
+#: content/themes/default/templates/_publisher.tpl:94
+msgid "Video uploaded successfully"
+msgstr "Video geüpload"
+
+#: content/themes/default/templates/_publisher.tpl:101
+msgid "Audio uploaded successfully"
+msgstr "Audio geüpload"
+
+#: content/themes/default/templates/_publisher.tpl:108
+msgid "File uploaded successfully"
+msgstr "Bestand succesvol geüpload."
+
+#: content/themes/default/templates/__feeds_conversation.tpl:19
+#: content/themes/default/templates/__feeds_conversation.tpl:39
+#: content/themes/default/templates/__feeds_post.tpl:131
+msgid "photo"
+msgstr "foto"
+
+#: content/themes/default/templates/__feeds_game.tpl:8
+msgid "Play"
+msgstr "Afspelen"
+
+#: content/themes/default/templates/__feeds_photo.comments.tpl:8
+#: content/themes/default/templates/__feeds_post.comments.tpl:8
+msgid "View previous comments"
+msgstr "Bekijk eerdere opmerkingen"
+
+#: content/themes/default/templates/__feeds_post.comment.tpl:26
+msgid "Edit Comment"
+msgstr "Wijzig profiel"
+
+#: content/themes/default/templates/__feeds_post.tpl:29
+msgid "Unsave Post"
+msgstr "Unsave Bericht"
+
+#: content/themes/default/templates/__feeds_post.tpl:35
+msgid "Save Post"
+msgstr "Save Bericht"
+
+#: content/themes/default/templates/__feeds_post.tpl:46
+msgid "Unpin Post"
+msgstr "losmaken Bericht"
+
+#: content/themes/default/templates/__feeds_post.tpl:52
+msgid "Pin Post"
+msgstr "Pin bericht"
+
+#: content/themes/default/templates/__feeds_post.tpl:60
+msgid "Edit Post"
+msgstr "Bewerk bericht"
+
+#: content/themes/default/templates/__feeds_post.tpl:76
+msgid "Unfollow"
+msgstr "Unfollow"
+
+#: content/themes/default/templates/__feeds_post.tpl:78
+msgid "Stop seeing posts but stay friends"
+msgstr "Stop berichten zien maar blijven vrienden"
+
+#: content/themes/default/templates/__feeds_post.tpl:85
+msgid "Hide this post"
+msgstr "Dit bericht verbergen"
+
+#: content/themes/default/templates/__feeds_post.tpl:87
+msgid "See fewer posts like this"
+msgstr "Zie minder posten als dit"
+
+#: content/themes/default/templates/__feeds_post.tpl:93
+msgid "Report post"
+msgstr "- Verslag-Post"
+
+#: content/themes/default/templates/__feeds_post.tpl:102
+msgid "Open post in new tab"
+msgstr "Open in een nieuw tabblad"
+
+#: content/themes/default/templates/__feeds_post.tpl:123
+msgid "shared"
+msgstr "gedeeld"
+
+#: content/themes/default/templates/__feeds_post.tpl:127
+msgid "'s"
+msgstr "S"
+
+#: content/themes/default/templates/__feeds_post.tpl:134
+#: content/themes/default/templates/__feeds_post.tpl:141
+msgid "video"
+msgstr "Video:"
+
+#: content/themes/default/templates/__feeds_post.tpl:136
+msgid "song"
+msgstr "lied"
+
+#: content/themes/default/templates/__feeds_post.tpl:139
+msgid "album"
+msgstr "album"
+
+#: content/themes/default/templates/__feeds_post.tpl:143
+msgid "audio"
+msgstr "audio"
+
+#: content/themes/default/templates/__feeds_post.tpl:145
+msgid "file"
+msgstr "bestand"
+
+#: content/themes/default/templates/__feeds_post.tpl:147
+msgid "link"
+msgstr "koppelteken"
+
+#: content/themes/default/templates/__feeds_post.tpl:149
+msgid "post"
+msgstr "bericht"
+
+#: content/themes/default/templates/__feeds_post.tpl:154
+#: content/themes/default/templates/__feeds_post_shared.tpl:26
+msgid "shared a link"
+msgstr "een koppeling hebt gedeeld"
+
+#: content/themes/default/templates/__feeds_post.tpl:157
+#: content/themes/default/templates/__feeds_post.tpl:163
+#: content/themes/default/templates/__feeds_post_shared.tpl:29
+#: content/themes/default/templates/__feeds_post_shared.tpl:35
+msgid "added"
+msgstr "gevoegd"
+
+#: content/themes/default/templates/__feeds_post.tpl:157
+#: content/themes/default/templates/__feeds_post_shared.tpl:29
+msgid "photos to the album"
+msgstr "fotos naar het album"
+
+#: content/themes/default/templates/__feeds_post.tpl:161
+#: content/themes/default/templates/__feeds_post_shared.tpl:33
+msgid "added a photo"
+msgstr "toegevoegd een foto"
+
+#: content/themes/default/templates/__feeds_post.tpl:167
+#: content/themes/default/templates/__feeds_post_shared.tpl:39
+msgid "added a video"
+msgstr "een video toegevoegd"
+
+#: content/themes/default/templates/__feeds_post.tpl:170
+#: content/themes/default/templates/__feeds_post_shared.tpl:42
+msgid "added an audio"
+msgstr "toegevoegd een audio"
+
+#: content/themes/default/templates/__feeds_post.tpl:173
+#: content/themes/default/templates/__feeds_post_shared.tpl:45
+msgid "added a file"
+msgstr "heeft een bestand toegevoegd"
+
+#: content/themes/default/templates/__feeds_post.tpl:177
+#: content/themes/default/templates/__feeds_post_shared.tpl:49
+msgid "updated his profile picture"
+msgstr "bijgewerkt zijn profielfoto"
+
+#: content/themes/default/templates/__feeds_post.tpl:179
+#: content/themes/default/templates/__feeds_post_shared.tpl:51
+msgid "updated her profile picture"
+msgstr "bijgewerkt haar profielfoto"
+
+#: content/themes/default/templates/__feeds_post.tpl:184
+#: content/themes/default/templates/__feeds_post_shared.tpl:56
+msgid "updated his cover photo"
+msgstr "bijgewerkt zijn cover foto"
+
+#: content/themes/default/templates/__feeds_post.tpl:186
+#: content/themes/default/templates/__feeds_post_shared.tpl:58
+msgid "updated her cover photo"
+msgstr "bijgewerkt haar cover foto"
+
+#: content/themes/default/templates/__feeds_post.tpl:190
+#: content/themes/default/templates/__feeds_post_shared.tpl:62
+msgid "updated page picture"
+msgstr "bijgewerkt zijn profielfoto"
+
+#: content/themes/default/templates/__feeds_post.tpl:193
+#: content/themes/default/templates/__feeds_post_shared.tpl:65
+msgid "updated cover photo"
+msgstr "bijgewerkt coverfoto"
+
+#: content/themes/default/templates/__feeds_post.tpl:196
+#: content/themes/default/templates/__feeds_post_shared.tpl:68
+msgid "updated group picture"
+msgstr "bijgewerkt groepsfoto"
+
+#: content/themes/default/templates/__feeds_post.tpl:199
+#: content/themes/default/templates/__feeds_post_shared.tpl:71
+msgid "updated group cover"
+msgstr "bijgewerkt groep dekking"
+
+#: content/themes/default/templates/__feeds_post.tpl:392
+#: content/themes/default/templates/__feeds_post_shared.tpl:225
+msgid "Your browser does not support HTML5 video"
+msgstr "Uw browser ondersteunt deze HTML5 video tag niet."
+
+#: content/themes/default/templates/__feeds_post.tpl:399
+#: content/themes/default/templates/__feeds_post_shared.tpl:232
+msgid "Your browser does not support HTML5 audio"
+msgstr "Uw browser ondersteunt geen HTML5 audio"
+
+#: content/themes/default/templates/__feeds_post.tpl:407
+#: content/themes/default/templates/__feeds_post_shared.tpl:240
+msgid "File Type"
+msgstr "Bestandstype"
+
+#: content/themes/default/templates/__feeds_post.tpl:409
+#: content/themes/default/templates/__feeds_post_shared.tpl:242
+msgid "Download"
+msgstr "Downloaden"
+
+#: content/themes/default/templates/__feeds_post.tpl:416
+msgid "Show Attachments"
+msgstr "Bijlagen weergeven"
+
+#: content/themes/default/templates/__feeds_post.tpl:442
+msgid "Share"
+msgstr "Deel"
+
+#: content/themes/default/templates/__feeds_post.tpl:467
+msgid "shares"
+msgstr "aandelen"
+
+#: content/themes/default/templates/__feeds_user.tpl:41
+msgid "Unblock"
+msgstr "blokkering opheffen"
+
+#: includes/class-image.php:26 includes/class-image.php:39
+msgid "The file type is not valid image"
+msgstr "Het bestandstype is niet geldig beeld"
+
+#: includes/class-pager.php:104
+msgid "Displaying"
+msgstr "Display"
+
+#: includes/class-pager.php:104
+msgid "of"
+msgstr "of"
+
+#: includes/class-pager.php:130
+msgid "Prev"
+msgstr "Vorige"
+
+#: includes/class-pager.php:144
+msgid "Next"
+msgstr "Volgende stap"
+
+#: includes/class-user.php:689
+msgid "You have already blocked this user before!"
+msgstr "U hebt al deze gebruiker voordat geblokkeerd!"
+
+#: includes/class-user.php:933
+msgid "You can not delete admin/morderator accounts"
+msgstr "U kunt niet admin/morderator accounts verwijderen"
+
+#: includes/class-user.php:1046
+msgid "Accepted your friend request"
+msgstr "Je vriendschapsverzoek geaccepteerd"
+
+#: includes/class-user.php:1052
+msgid "Now following you"
+msgstr "Nu volgt u"
+
+#: includes/class-user.php:1059
+msgid "Likes your post"
+msgstr "vind jouw bericht leuk"
+
+#: includes/class-user.php:1063 includes/class-user.php:1071
+msgid "Likes your comment"
+msgstr "Houdt uw commentaar"
+
+#: includes/class-user.php:1067
+msgid "Likes your photo"
+msgstr "vindt je foto leuk"
+
+#: includes/class-user.php:1079
+msgid "Commented on your post"
+msgstr "heeft gereageerd op je <a href='%TRENGVAR_1%'>bericht</a> ."
+
+#: includes/class-user.php:1083
+msgid "Commented on your photo"
+msgstr "Commentaar op uw foto"
+
+#: includes/class-user.php:1090
+msgid "Shared your post"
+msgstr "Gedeelde uw post"
+
+#: includes/class-user.php:1097
+msgid "Mentioned you in a post"
+msgstr "Vermeld u in een bericht"
+
+#: includes/class-user.php:1101 includes/class-user.php:1105
+msgid "Mentioned you in a comment"
+msgstr "U noemde in een commentaar"
+
+#: includes/class-user.php:1112
+msgid "Visited your profile"
+msgstr "Uw profiel bezocht"
+
+#: includes/class-user.php:1118
+msgid "Posted on your wall"
+msgstr "Geplaatst op uw muur"
+
+#: includes/class-user.php:1351
+msgid "more"
+msgstr "meer"
+
+#: includes/class-user.php:1410
+msgid "You are not authorized to view this"
+msgstr "U bent niet gemachtigd om dit te bekijken"
+
+#: includes/class-user.php:1472 includes/class-user.php:1521
+msgid "You are not authorized to do this"
+msgstr "U bent niet gemachtigd om dit te doen"
+
+#: includes/class-user.php:2753
+msgid "This album can't be deleted"
+msgstr "Dit album kan niet worden verwijderd"
+
+#: includes/class-user.php:2785 includes/class-user.php:4103
+#: includes/class-user.php:4347 includes/class-user.php:4420
+#: includes/class-user.php:4624
+msgid "You must fill in all of the fields"
+msgstr "U moet alle velden invullen"
+
+#: includes/class-user.php:3515 includes/class-user.php:3530
+#: includes/class-user.php:3545
+msgid "You have already reported this user before!"
+msgstr "U heeft al deze gebruiker voordat gemeld!"
+
+#: includes/class-user.php:3759 includes/class-user.php:3806
+#: includes/class-user.php:3850 includes/class-user.php:3888
+#: includes/class-user.php:3926 includes/class-user.php:3962
+#: includes/ajax/users/delete.php:22
+msgid "This feature has been disabled by the admin"
+msgstr "Deze functie is uitgeschakeld door de admin"
+
+#: includes/class-user.php:3763 includes/class-user.php:3767
+#: includes/class-user.php:3810 includes/class-user.php:3814
+msgid "You must select valid category for your page"
+msgstr "U moet geldige rubriek voor uw pagina selecteren"
+
+#: includes/class-user.php:3771 includes/class-user.php:3818
+msgid "You must enter a title for your page"
+msgstr "U moet een titel voor uw pagina invoeren"
+
+#: includes/class-user.php:3774 includes/class-user.php:3821
+#: includes/class-user.php:3895 includes/class-user.php:3933
+msgid "Page title must be at least 3 characters long. Please try another"
+msgstr "Paginatitel moet ten minste 3 tekens lang. Probeer een andere"
+
+#: includes/class-user.php:3778 includes/class-user.php:3826
+msgid "You must enter a username for your page"
+msgstr "U moet een gebruikersnaam invoeren voor uw pagina"
+
+#: includes/class-user.php:3781 includes/class-user.php:3829
+#: includes/class-user.php:3902 includes/class-user.php:3941
+#: includes/class-user.php:4062 includes/class-user.php:4350
+#: includes/class-user.php:4627 includes/ajax/admin/user.php:60
+msgid "Please enter a valid username (a-z0-9_.)"
+msgstr "Voer een geldige gebruikersnaam (a-z0-9_.)"
+
+#: includes/class-user.php:3784 includes/class-user.php:3832
+#: includes/class-user.php:3905 includes/class-user.php:3944
+msgid "Sorry, it looks like this username"
+msgstr "Sorry, dat het ziet eruit als deze gebruikersnaam"
+
+#: includes/class-user.php:3784 includes/class-user.php:3832
+msgid "belongs to an existing page"
+msgstr "behoort tot een bestaande pagina"
+
+#: includes/class-user.php:3892 includes/class-user.php:3930
+msgid "You must enter a title for your group"
+msgstr "U moet een titel invoeren voor uw groep"
+
+#: includes/class-user.php:3899 includes/class-user.php:3938
+msgid "You must enter a username for your group"
+msgstr "U moet een gebruikersnaam invoeren voor uw groep"
+
+#: includes/class-user.php:3905 includes/class-user.php:3944
+msgid "belongs to an existing group"
+msgstr "deel uitmaakt van een bestaande groep"
+
+#: includes/class-user.php:4065 includes/class-user.php:4079
+#: includes/class-user.php:4353 includes/class-user.php:4359
+#: includes/class-user.php:4630 includes/class-user.php:4636
+#: includes/class-user.php:4687 includes/class-user.php:4811
+#: includes/ajax/admin/static.php:47 includes/ajax/admin/user.php:63
+#: includes/ajax/admin/user.php:80
+msgid "Sorry, it looks like"
+msgstr "Sorry, dat het ziet eruit als"
+
+#: includes/class-user.php:4065 includes/class-user.php:4079
+#: includes/class-user.php:4353 includes/class-user.php:4359
+#: includes/class-user.php:4630 includes/class-user.php:4636
+#: includes/class-user.php:4811 includes/ajax/admin/user.php:63
+#: includes/ajax/admin/user.php:80
+msgid "belongs to an existing account"
+msgstr "behoort tot een bestaande account"
+
+#: includes/class-user.php:4076 includes/class-user.php:4356
+#: includes/class-user.php:4633 includes/class-user.php:4684
+#: includes/ajax/admin/user.php:77
+msgid "Please enter a valid email address"
+msgstr "Vult u alstublieft een geldig e-mail adres in"
+
+#: includes/class-user.php:4087 includes/class-user.php:4392
+#: includes/class-user.php:4786 includes/class-user.php:4819
+msgid "Just one more step to get started on"
+msgstr "Slechts één meer stap aan de slag op"
+
+#: includes/class-user.php:4088 includes/class-user.php:4393
+#: includes/class-user.php:4705 includes/class-user.php:4787
+#: includes/class-user.php:4820
+msgid "Hi"
+msgstr "Hallo"
+
+#: includes/class-user.php:4089 includes/class-user.php:4394
+#: includes/class-user.php:4788 includes/class-user.php:4821
+msgid "To complete the sign-up process, please follow this link:"
+msgstr "Voltooi het aanmeldingsproces, volg deze link:"
+
+#: includes/class-user.php:4092 includes/class-user.php:4397
+#: includes/class-user.php:4708 includes/class-user.php:4791
+#: includes/class-user.php:4824
+msgid "Team"
+msgstr "Team"
+
+#: includes/class-user.php:4095 includes/class-user.php:4400
+#: includes/class-user.php:4827
+msgid "Activation email could not be sent. But you can login now"
+msgstr "Activatie e-mail kon niet worden verzonden. Maar u kunt nu inloggen"
+
+#: includes/class-user.php:4107
+msgid "Your current password is incorrect"
+msgstr "Je huidige wachtwoord is niet juist"
+
+#: includes/class-user.php:4111
+msgid "Your passwords do not match"
+msgstr "Uw wachtwoorden komen niet overeen!"
+
+#: includes/class-user.php:4114 includes/class-user.php:4362
+#: includes/class-user.php:4639 includes/class-user.php:4757
+#: includes/ajax/admin/user.php:93
+msgid "Your password must be at least 6 characters long. Please try another"
+msgstr "Uw wachtwoord moet minstens 6 tekens lang zijn. Probeer een andere"
+
+#: includes/class-user.php:4123
+msgid "You must enter your name"
+msgstr "U moet een naam opgeven."
+
+#: includes/class-user.php:4126 includes/class-user.php:4365
+#: includes/class-user.php:4642
+msgid "Your name contains invalid characters"
+msgstr "De naam bevat ongeldige karakters."
+
+#: includes/class-user.php:4129 includes/class-user.php:4368
+#: includes/class-user.php:4645
+msgid "Your name must be at least 3 characters long. Please try another"
+msgstr "Uw naam moet ten minste 3 tekens lang. Probeer een andere"
+
+#: includes/class-user.php:4133 includes/class-user.php:4371
+#: includes/class-user.php:4648
+msgid "Please select either Male or Female"
+msgstr "Selecteer ofwel mannelijke of vrouwelijke"
+
+#: includes/class-user.php:4138
+msgid "Please select a valid birth month"
+msgstr "Selecteer een geldige geboorte maand"
+
+#: includes/class-user.php:4141
+msgid "Please select a valid birth day"
+msgstr "Selecteer een geldige geboorte dag"
+
+#: includes/class-user.php:4144
+msgid "Please select a valid birth year"
+msgstr "Selecteer een geldige geboortejaar"
+
+#: includes/class-user.php:4380 includes/class-user.php:4695
+msgid "The secuirty check is incorrect. Please try again"
+msgstr "De beveiliging controle is onjuist. Probeer het a.u.b. opnieuw"
+
+#: includes/class-user.php:4425
+msgid "The email you entered does not belong to any account"
+msgstr "De e-mail die u hebt opgegeven behoort niet tot een account"
+
+#: includes/class-user.php:4430
+msgid "Please enter a valid email address or username"
+msgstr "Vult u alstublieft een geldig e-mail adres in"
+
+#: includes/class-user.php:4433
+msgid "The username you entered does not belong to any account"
+msgstr "De ingevoerde gebruikersnaam hoort niet bij elke account"
+
+#: includes/class-user.php:4440
+msgid "Please re-enter your password"
+msgstr "Vul je wachtwoord opnieuw in."
+
+#: includes/class-user.php:4440
+msgid "The password you entered is incorrect"
+msgstr "Het ingevoerde wachtwoord is onjuist"
+
+#: includes/class-user.php:4440
+msgid "If you forgot your password?"
+msgstr "Als u uw wachtwoord vergeten?"
+
+#: includes/class-user.php:4440
+msgid "Request a new one"
+msgstr "Aanvragen van een nieuwe"
+
+#: includes/class-user.php:4501
+msgid "You have reached the maximum number of account for your IP"
+msgstr "U hebt het maximumaantal van account bereikt voor uw IP"
+
+#: includes/class-user.php:4687
+msgid "doesn't belong to any account"
+msgstr "behoort niet tot een account"
+
+#: includes/class-user.php:4704
+msgid "Forget password activation key!"
+msgstr "Vergeten wachtwoord activeren toonsoort!"
+
+#: includes/class-user.php:4706
+msgid "To complete the reset password process, please copy this token:"
+msgstr "Om het te voltooien reset wachtwoord, kopieer deze token:"
+
+#: includes/class-user.php:4707
+msgid "Token:"
+msgstr "Fiche"
+
+#: includes/class-user.php:4711
+msgid "Activation key email could not be sent!"
+msgstr "Activatie belangrijke e-mail kon niet verzonden worden!"
+
+#: includes/class-user.php:4726 includes/class-user.php:4748
+#: includes/class-user.php:4808
+msgid "Invalid email, please try again"
+msgstr "Ongeldig e-mailadres, gelieve te proberen opnieuw"
+
+#: includes/class-user.php:4731 includes/class-user.php:4753
+msgid "Invalid code, please try again."
+msgstr "Ongeldige code. Probeer het opnieuw."
+
+#: includes/class-user.php:4761
+msgid "Your passwords do not match. Please try another"
+msgstr "Uw wachtwoorden komen niet overeen. Probeer een andere"
+
+#: includes/class-user.php:4794
+msgid "Activation email could not be sent."
+msgstr "E-mail kon niet worden verzonden"
+
+#: includes/functions.php:40
+msgid "Database Error"
+msgstr "Databasetabellen verwijderen"
+
+#: includes/functions.php:41 includes/functions.php:45
+msgid "An error occurred while writing to database. Please try again later"
+msgstr ""
+"Er is een fout opgetreden tijdens het schrijven naar de database. Probeer "
+"het later opnieuw"
+
+#: includes/functions.php:50
+msgid "404 Not Found"
+msgstr "404 niet gevonden"
+
+#: includes/functions.php:51
+msgid "The requested URL was not found on this server. That's all we know"
+msgstr ""
+"De opgevraagde URL is niet gevonden op deze server. Dat is alles wat die we "
+"weten"
+
+#: includes/functions.php:64
+msgid "There is some thing went wrong"
+msgstr "Er is één of ander ding verkeerd ging"
+
+#: includes/functions.php:498
+msgid "You must sign in to see this page"
+msgstr "U moet inloggen om deze pagina te zien"
+
+#: includes/functions.php:499
+msgid "Sign in"
+msgstr "Log in"
+
+#: includes/ajax/admin/ads.php:33
+msgid "Done, Ads info have been updated"
+msgstr "Gedaan, zijn advertenties info bijgewerkt"
+
+#: includes/ajax/admin/announcements.php:32
+#: includes/ajax/admin/announcements.php:55
+msgid "You have to enter the announcement name"
+msgstr "U moet de naam aankondiging in te voeren"
+
+#: includes/ajax/admin/announcements.php:35
+#: includes/ajax/admin/announcements.php:58
+msgid "You have to enter the announcement HTML code"
+msgstr "Je moet de aankondiging HTML-code in te voeren"
+
+#: includes/ajax/admin/announcements.php:38
+#: includes/ajax/admin/announcements.php:61
+msgid "You have to enter the announcement start date"
+msgstr "Je moet de aankondiging start datum in te voeren"
+
+#: includes/ajax/admin/announcements.php:41
+#: includes/ajax/admin/announcements.php:64
+msgid "You have to enter the announcement end date"
+msgstr "Je moet de aankondiging eind datum in te voeren"
+
+#: includes/ajax/admin/announcements.php:44
+#: includes/ajax/admin/announcements.php:67
+msgid "End Date must be after the Start Date"
+msgstr "Einddatum moet na begindatum vallen"
+
+#: includes/ajax/admin/announcements.php:49
+msgid "Done, Announcement info have been updated"
+msgstr "Gedaan, hebben Aankondiging info is vernieuwd"
+
+#: includes/ajax/admin/category.php:33
+msgid "Done, Category info have been updated"
+msgstr "Gedaan, categorie info zijn bijgewerkt"
+
+#: includes/ajax/admin/games.php:33
+msgid "Done, Game info have been updated"
+msgstr "Gedaan, Game info, al zijn bijgewerkt"
+
+#: includes/ajax/admin/group.php:27
+msgid "Done, Group info have been updated"
+msgstr "Gedaan, groep info zijn bijgewerkt"
+
+#: includes/ajax/admin/language.php:40
+msgid "Done, Language info have been updated"
+msgstr "Gedaan, zijn taal info bijgewerkt"
+
+#: includes/ajax/admin/page.php:29
+msgid "Done, Page info have been updated"
+msgstr "Gedaan, pagina-info zijn bijgewerkt"
+
+#: includes/ajax/admin/static.php:35
+msgid "Done, Static page info have been updated"
+msgstr "Gedaan, statische pagina-info zijn bijgewerkt"
+
+#: includes/ajax/admin/static.php:43
+msgid "Please enter a valid URL to your page"
+msgstr "Voer een geldige URL naar uw pagina"
+
+#: includes/ajax/admin/static.php:47
+msgid "belongs to an existing static page"
+msgstr "behoort tot een bestaande statische pagina"
+
+#: includes/ajax/admin/theme.php:39
+msgid "Done, Theme info have been updated"
+msgstr "Gedaan, thema info zijn bijgewerkt"
+
+#: includes/ajax/admin/user.php:38
+msgid "You can not change the group of this user"
+msgstr "U kunt niet veranderen de groep van deze gebruiker"
+
+#: includes/ajax/admin/user.php:43 includes/ajax/admin/user.php:53
+#: includes/ajax/admin/user.php:68 includes/ajax/admin/user.php:85
+#: includes/ajax/admin/user.php:98 includes/ajax/admin/user.php:111
+msgid "Done, User info have been updated"
+msgstr "Gedaan, gebruikersgegevens zijn bijgewerkt"
+
+#: includes/ajax/admin/widgets.php:33
+msgid "Done, Widget info have been updated"
+msgstr "Gedaan, Widget info zijn bijgewerkt"
+
+#: includes/ajax/albums/action.php:22 includes/ajax/albums/modal.php:22
+#: includes/ajax/albums/update.php:22
+#: includes/ajax/chat/get.conversation.php:22
+#: includes/ajax/chat/get.messages.php:22 includes/ajax/chat/post.php:22
+#: includes/ajax/chat/reaction.php:22 includes/ajax/data/create.php:22
+#: includes/ajax/data/delete.php:22 includes/ajax/data/load.php:22
+#: includes/ajax/data/report.php:22 includes/ajax/data/upload.php:30
+#: includes/ajax/posts/comment.php:22 includes/ajax/posts/edit.php:22
+#: includes/ajax/posts/filter.php:22 includes/ajax/posts/post.php:22
+#: includes/ajax/posts/reaction.php:22 includes/ajax/posts/scraber.php:22
+#: includes/ajax/posts/who_likes.php:22 includes/ajax/posts/who_shares.php:22
+#: includes/ajax/users/connect.php:22 includes/ajax/users/image.php:22
+#: includes/ajax/users/mutual_friends.php:22
+#: includes/ajax/users/popover.php:22 includes/ajax/users/settings.php:22
+#: includes/ajax/users/started.php:22
+msgid ""
+"Before you can interact with other users, you need to confirm your email "
+"address"
+msgstr ""
+"Voordat u met andere gebruikers communiceren kunt, moet u uw e-mailadres "
+"bevestigen"
+
+#: includes/ajax/core/activation_email_resend.php:22
+#: includes/ajax/core/activation_email_reset.php:22
+msgid "Your account already activated!"
+msgstr "Account is al geactiveerd."
+
+#: includes/ajax/core/activation_email_resend.php:28
+msgid "Another activation email has been sent"
+msgstr "Een andere activatie e-mail is verstuurd"
+
+#: includes/ajax/core/activation_email_resend.php:28
+#: includes/ajax/core/activation_email_reset.php:28
+msgid "Please click on the link in that email to confirm your email address"
+msgstr "Klik op de link in de e-mail om uw e-mailadres bevestigen"
+
+#: includes/ajax/core/activation_email_reset.php:28
+msgid "Your email has been changed"
+msgstr "uw e-mailadres is succesvol aangepast"
+
+#: includes/ajax/core/forget_password_reset.php:23
+msgid "Done"
+msgstr "Klaar"
+
+#: includes/ajax/core/forget_password_reset.php:23
+msgid "Your password has been changed you can login now"
+msgstr "Uw wachtwoord is veranderd u kunt nu inloggen"
+
+#: includes/ajax/core/signup.php:22 includes/ajax/core/signup_social.php:22
+msgid "Registration is closed right now"
+msgstr "Registratie is nu gesloten"
+
+#: includes/ajax/data/report.php:45 includes/ajax/data/report.php:50
+#: includes/ajax/data/report.php:55
+msgid "Thanks"
+msgstr "Bedankt!"
+
+#: includes/ajax/data/report.php:45 includes/ajax/data/report.php:50
+#: includes/ajax/data/report.php:55
+msgid "Your report has been submitted"
+msgstr "Uw verslag is ingediend"
+
+#: includes/ajax/data/upload.php:55 includes/ajax/data/upload.php:359
+#: includes/ajax/data/upload.php:410 includes/ajax/data/upload.php:461
+msgid "Not Allowed"
+msgstr "(Toegestaan: JPG, GIF, PNG)"
+
+#: includes/ajax/data/upload.php:55 includes/ajax/data/upload.php:359
+#: includes/ajax/data/upload.php:410 includes/ajax/data/upload.php:461
+msgid "This feature has been disabled"
+msgstr "Deze functie is uitgeschakeld"
+
+#: includes/ajax/data/upload.php:98 includes/ajax/data/upload.php:107
+#: includes/ajax/data/upload.php:125 includes/ajax/data/upload.php:146
+#: includes/ajax/data/upload.php:151 includes/ajax/data/upload.php:165
+#: includes/ajax/data/upload.php:364 includes/ajax/data/upload.php:370
+#: includes/ajax/data/upload.php:376 includes/ajax/data/upload.php:400
+#: includes/ajax/data/upload.php:415 includes/ajax/data/upload.php:421
+#: includes/ajax/data/upload.php:427 includes/ajax/data/upload.php:451
+#: includes/ajax/data/upload.php:466 includes/ajax/data/upload.php:472
+#: includes/ajax/data/upload.php:478 includes/ajax/data/upload.php:502
+msgid "Upload Error"
+msgstr "﻿Fout opladen."
+
+#: includes/ajax/data/upload.php:98 includes/ajax/data/upload.php:146
+#: includes/ajax/data/upload.php:364 includes/ajax/data/upload.php:415
+#: includes/ajax/data/upload.php:466
+msgid "Something wrong with upload! Is 'upload_max_filesize' set correctly?"
+msgstr "Iets mis met upload! Is 'upload_max_filesize' correct ingesteld?"
+
+#: includes/ajax/data/upload.php:107 includes/ajax/data/upload.php:151
+#: includes/ajax/data/upload.php:370 includes/ajax/data/upload.php:421
+#: includes/ajax/data/upload.php:472
+msgid "The file size is so big"
+msgstr "De bestandsgrootte is zo groot"
+
+#: includes/ajax/data/upload.php:125 includes/ajax/data/upload.php:165
+#: includes/ajax/data/upload.php:400 includes/ajax/data/upload.php:451
+#: includes/ajax/data/upload.php:502
+msgid "Sorry, can not upload the file"
+msgstr "Sorry, kan niet uploaden naar de vijl"
+
+#: includes/ajax/data/upload.php:376 includes/ajax/data/upload.php:427
+#: includes/ajax/data/upload.php:478
+msgid "The file type is not valid or not supported"
+msgstr "Het bestandstype is niet geldig of wordt niet ondersteund"
+
+#: includes/ajax/users/settings.php:39
+msgid "Done, Your username has been updated"
+msgstr "Gedaan, is uw gebruikersnaam bijgewerkt"
+
+#: includes/ajax/users/settings.php:51
+msgid "Done, Your email has been updated"
+msgstr "Gedaan, is uw e-mailadres bijgewerkt"
+
+#: includes/ajax/users/settings.php:65
+msgid "Done, Your password has been updated"
+msgstr "Gedaan, is uw wachtwoord bijgewerkt"
+
+#: includes/ajax/users/settings.php:81 includes/ajax/users/settings.php:94
+#: includes/ajax/users/settings.php:107 includes/ajax/users/settings.php:121
+msgid "Done, Your profile info has been updated"
+msgstr "Gedaan, is uw profiel info bijgewerkt"
+
+#: includes/ajax/users/settings.php:138 includes/ajax/users/settings.php:150
+msgid "Done, Your privacy settings have been updated"
+msgstr "Gedaan, zijn uw privacy-instellingen bijgewerkt"
+
+#: includes/ajax/users/started.php:38
+msgid "Done, Your info has been updated"
+msgstr "Gedaan, is uw info bijgewerkt"
